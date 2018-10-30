@@ -1,0 +1,33 @@
+h1
+{
+	color: pink
+}
+h3
+{
+	color: #01A9DB
+}
+.branco
+{
+	color:white;
+}
+.sobre
+{
+	text-align: center;
+}
+p.a1
+{
+	color:#04B4AE;
+}
+p.a2
+{
+	color:#A901DB;
+}
+.centro h4
+{
+	text-align: center;
+	color: #A901DB;
+}
+h5
+{
+	text-align: right;
+}
