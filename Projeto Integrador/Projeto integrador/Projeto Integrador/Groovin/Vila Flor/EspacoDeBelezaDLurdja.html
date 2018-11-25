@@ -27,6 +27,9 @@
 	{
   	text-align: center;
   	color:black;
+  	color: #FE9A2E;
+  	font-family: "Georgia, serif"
+
 	}
 	
 	h2
@@ -68,14 +71,68 @@
 		margin-top: 130px
 	}
 
+	.imagem {
+		background-image: url('img/beleza.jpg');
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 600px 
+	}
+
+	.fonte {
+		text-align: center;
+		font-style: italic;
+
+	}
+
+	.x {
+		border-style: double;
+		margin-left: 20px
+	} 
+
+	.z {
+
+		border-style: double
+	}
+
+	.y {
+		border-style: double;
+		margin-right: 20px 
+	}
+
+	.letra {
+		font-style: italic;
+	}
+
+	.baixar {
+		margin-top: 40px;
+		margin-bottom: -500px
+
+	}
+
+	.baixar2 {
+		margin-top: 100px
+	}
+
+	.cor {
+		color: black;
+		font-style: italic;
+
+	}
+
+	.b {
+		list-style-type: circle
+
+	}
+
 	</style>
 
 	<link rel="stylesheet" type="text/css" href="../externo.css" />
 
 </head>
 <body>
-
-	<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm laranja">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12 d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm laranja">
 		<h3 class="my-0 mr-md-auto font-weight-normal">
 			<img src="../gps.png" width="100px" height="100px">
 		</h3>
@@ -85,53 +142,62 @@
         <a class="p-2 text-dark" href="#">Serviço</a>
         <a class="p-2 text-dark" href="#">Menu</a>
       </nav>
+      </div>
   </div>
       <div class="row">
-      	<div class="col-12 c padding">
-      		<h1> Espaço de Beleza D. Lurdja </h1>
+      	<div class="col-12 c padding imagem img-responsive rounded">
+      		<h1 class="letra"> Espaço de Beleza D'Lurdja </h1>
+      	</div>
       	</div>
 
-      </div>
-      <div class="row">
-      	<div class="col-6 col-md">
+      	<div class="row">
+      		<div class="col-12 laranja e baixar2">
+      			<h3 class="fonte"> Veja informações sobre Espaço de Beleza D'lurja </h3>
+      		</div>
+      	</div>
+
+      
+      <div class="row baixar">
+      	<div class="col-6 col-md x">
             <h5>Serviços:</h5>
-            <ul class="list-unstyled text-small">
-            <li class="espaco"> Salão de beleza.</li>
-			<li class="espaco"> </li>
-			<li class="espaco"> </li>
-			<li class="espaco"> </li>
-			<li class="espaco"> </li>
+            <ul class="b text-small">
+            <li class="espaco cor"> Salão de beleza.</li>
+			<!-- <li class="espaco "> </li>
+			<li class="espaco "> </li>
+			<li class="espaco "> </li>
+			<li class="espaco "> </li> -->
             </ul>
           </div>
 
-          <div class="col-6 col-md">
+          <div class="col-6 col-md z">
             <h5>Descrição Geral: </h5>
-            <ul class="list-unstyled text-small">
-            <li class="espaco">Natureza: privada. </li>
-			<li class="espaco"> Faz cabelos, unhas e maquiagem.</li>
-			<li class="espaco"> Atende de terça à sabado, de 09h às 17h. </li>
-			<li class="espaco"> </li>
+            <ul class="b text-small">
+            <li class="espaco cor">Natureza: privada. </li>
+			<li class="espaco cor"> Faz cabelos, unhas e maquiagem.</li>
+			<li class="espaco cor"> Atende de terça à sabado, de 09h às 17h. </li>
+			<!-- <li class="espaco"> </li> -->
             </ul>
           </div>
 
-          <div class="col-6 col-md">
+          <div class="col-6 col-md y">
           	<h5>Localização: </h5>
-          	<ul class="a" style="list-style-type:none">
-          		<li>Rua: Braz Fagundes.</li>
-            	<li>Número: -</li>
-            	<li>CEP: 59192-000</li>
-            	<li>Bairro: Centro</li>
-            	<li>Cidade: Vila Flor</li>
+          	<ul class="b">
+          		<li class="cor">Rua: Braz Fagundes.</li>
+            	<li class="cor">Número: -</li>
+            	<li class="cor">CEP: 59192-000</li>
+            	<li class="cor">Bairro: Centro</li>
+            	<li class="cor">Cidade: Vila Flor</li>
             </ul>
           </div>
 
           <div class="col-12 laranja e">
-         	<h4>Para mais informações:<a class="text-muted" href="#">  Contato: (84) 99166-1955 |  CNPJ: - | Facebook: Espaço de Beleza. | E-mail: ludjamoises@hotmail.com. 
-</a></h4>
+         	<h4 class="text-muted">Para mais informações: Contato: (84) 99166-1955 |  CNPJ: - | E-mail: ludjamoises@hotmail.com | Facebook: <a class="text-muted" href="https://www.facebook.com/pages/Espa%C3%A7o-De-Beleza-Dlurdja/616658585032593">  Espaço de Beleza D'lurdja   
+</a>   </h4>
          </div>
 
 
 
+      </div>
       </div>
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
