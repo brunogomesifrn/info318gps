@@ -15,6 +15,7 @@
 	{
   	text-align: center;
   	color: black;
+
 	}
 	
 	h4
@@ -26,7 +27,9 @@
 	h5
 	{
   	text-align: center;
-  	color:black;
+  	color: #FE9A2E;
+  	font-family: "Georgia, serif";
+  	
 	}
 	
 	h2
@@ -59,6 +62,7 @@
 	ul.a
 	{
 	text-align: center;
+
 	}
 	.espaco
 	{
@@ -66,6 +70,59 @@
 	}
 	.e {
 		margin-top: 130px
+	}
+
+	.cor {
+		color: black;
+		font-style: italic;
+
+	}
+
+	.x {
+		border-style: double ;
+		margin-left: 20px;
+
+	}
+
+	.y {
+		margin-right: 20px;
+		border-style: double;
+
+	}
+
+	.z {
+		border-style: double;
+	}
+
+	.b {
+		list-style-type: circle;
+	}
+
+	.baixar {
+		margin-top: 40px;
+		margin-bottom: -500px
+	}
+
+	.imagem {
+		background-image: url('clube.jpg');
+		background-repeat: no-repeat;
+		background-position: center;
+  		height: 600px;
+
+	}
+
+	.fonte {
+		text-align: center;
+		font-style: italic;
+		font-color: white;
+	}
+
+	.baixar2 {
+		margin-top: 100px 
+	}
+
+	.letra {
+		font-style: italic;
 	}
 
 	</style>
@@ -88,49 +145,56 @@
       </nav>
       </div>
   </div>
-      <div class="row">
-      	<div class="col-12 c padding">
-      		<h1> Clube Municipal </h1>
+      <div class="row" height="1000px" >
+      	<div class="col-12 c padding imagem img-responsive rounded">
+      		<h1 class="letra"> Clube Municipal </h1>
       	</div>
 
       </div>
 
       <div class="row">
-      	<div class="col-6 col-md">
+      	<div class="col-12 baixar2 laranja e baixar2">
+      		<h3 class="fonte"> Veja informações sobre o Clube Municipal</h3>
+      	</div>
+
+      </div>
+
+      <div class="row baixar">
+      	<div class="col-6 col-md x">
             <h5>Serviços:</h5>
-            <ul class="list-unstyled text-small">
-            <li class="espaco"> Locação de espaços:</li>
-			<li class="espaco"> auditório;</li>
-			<li class="espaco"> boates; </li>
-			<li class="espaco"> casa de show </li>
-			<li class="espaco"> espetáculos, etc. </li>
+            <ul class="text-small b">
+            <li class="espaco cor"> Locação de espaços:</li>
+			<li class="espaco cor"> Auditório;</li>
+			<li class="espaco cor"> Boates; </li>
+			<li class="espaco cor"> Casa de show; </li>
+			<li class="espaco cor"> Espetáculos, etc. </li>
             </ul>
           </div>
 
-          <div class="col-6 col-md">
+          <div class="col-6 col-md z">
             <h5>Descrição Geral: </h5>
-            <ul class="list-unstyled text-small">
-            <li class="espaco">Natureza: Pública. </li>
-			<li class="espaco"> Ambiente fechado da prefeitura para a realização de eventos.</li>
-			<li class="espaco"> É necessário mandar um oficío para a prefeitura, com um mês de antecedência para marcar o dia e horário. </li>
-			<li class="espaco"> Capacidade de atendimento: 400 pessoas. </li>
+            <ul class="text-small b">
+            <li class="espaco cor">Natureza: Pública. </li>
+			<li class="espaco cor"> Ambiente fechado da prefeitura para a realização de eventos.</li>
+			<li class="espaco cor"> É necessário mandar um oficío para a prefeitura, com um mês de antecedência para marcar o dia e horário. </li>
+			<li class="espaco cor"> Capacidade de atendimento: 400 pessoas. </li>
             </ul>
           </div>
 
-          <div class="col-6 col-md">
+          <div class="col-6 col-md y">
           	<h5>Localização: </h5>
-          	<ul class="a" style="list-style-type:none">
-          		<li>Rua: Cordeiro./li>
-            	<li>Número: 81</li>
-            	<li>CEP: 59192-000</li>
-            	<li>Bairro: Centro</li>
-            	<li>Cidade: Vila Flor</li>
+          	<ul class="text-small b">
+          		<li class="cor">Rua: Cordeiro.</li>
+            	<li class="cor">Número: 81</li>
+            	<li class="cor">CEP: 59192-000</li>
+            	<li class="cor">Bairro: Centro</li>
+            	<li class="cor">Cidade: Vila Flor</li>
             </ul>
           </div>
 
           <div class="col-12 laranja e">
-         	<h4>Para mais informações:<a class="text-muted" href="#">  Contato: (84) 3245-0102 |  CNPJ: - | Site: http://www.vilaflor.rn.gov.br/ | 
-</a></h4>
+         	<h4 class="text-muted">Para mais informações: Contato: (84) 3245-0102 |  CNPJ: - | Site: <a class="text-muted" href="http://www.vilaflor.rn.gov.br"> http://www.vilaflor.rn.gov.br/ </a>  
+</h4>
          </div>
 
 
