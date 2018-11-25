@@ -27,6 +27,9 @@
 	{
   	text-align: center;
   	color:black;
+  	color: #FE9A2E;
+  	font-family: "Georgia, serif"
+
 	}
 	
 	h2
@@ -74,13 +77,66 @@
 		margin-top: 130px
 	}
 
+	.imagem {
+		background-image: url(img/bolo.jpg);
+		background-repeat: no-repeat;
+		background-position: center; 
+		height: 600px;
+		width: 500px
+
+	}
+
+	.baixar2 {
+		margin-top: 100px
+	}
+
+	.baixar {
+		margin-top: 40px;
+		margin-bottom: -500px
+	}
+
+	.fonte {
+		text-align: center;
+		font-style: italic;
+		font-color: white;
+	}
+
+	.x {
+		border-style: double;
+		margin-left: 20px
+	}
+
+	.y {
+		border-style: double;
+		margin-right: 20px
+	}
+
+	.z {
+		border-style: double
+	}
+
+	.cor {
+		color: black;
+		font-style: italic;
+	}
+
+	.b {
+		list-style-type: circle
+	}
+
+	.letra {
+		font-style: italic
+	}
+
 	</style>
 
 	<link rel="stylesheet" type="text/css" href="../externo.css" />
 
 </head>
 <body>
-	<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm laranja">
+	<div class="container-fluid">
+		<div class="row">
+	<div class=" col-12 d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm laranja">
 		<h3 class="my-0 mr-md-auto font-weight-normal">
 			<img src="../gps.png" width="100px" height="100px">
 		</h3>
@@ -90,55 +146,63 @@
         <a class="p-2 text-dark" href="#">Serviço</a>
         <a class="p-2 text-dark" href="#">Menu</a>
       </nav>
+      </div>
   </div>
   	 <div class="row">
-      	<div class="col-12 c padding">
-      		<h1> Dona Nem </h1>
+      	<div class="col-12 c padding imagem img-responsive rounded">
+      		<h1 class="letra"> Dona Nem </h1>
+      	</div>
+      </div>
+      	<div class="row">
+      		<div class="col-12 baixar2 laranja e ">
+      			<h3 class="fonte"> Veja informações sobre a Dona Nem</h3>
+      		</div>
       	</div>
 
-      </div>
-      <div class="row">
-      	<div class="col-6 col-md">
+      
+      <div class="row baixar">
+      	<div class="col-6 col-md x">
             <h5>Serviços:</h5>
-            <ul class="list-unstyled text-small">
-            <li class="espaco"> Bolos,</li>
-			<li class="espaco"> Salgados.</li>
-			<li class="espaco"> </li>
-			<li class="espaco">  </li>
-			<li class="espaco">  </li>
+            <ul class="text-small b">
+            <li class="espaco cor"> Bolos; </li>
+			<li class="espaco cor"> Salgados.</li>
+			<!--<li class="espaco cor"> </li>
+			<li class="espaco cor">  </li>
+			<li class="espaco cor">  </li> -->
             </ul>
           </div>
 
-          <div class="col-6 col-md">
+          <div class="col-6 col-md z">
             <h5>Descrição Geral: </h5>
-            <ul class="list-unstyled text-small">
-            <li class="espaco">Natureza: Privada. </li>
-			<li class="espaco"> Faz bolos e salgados para aniversários.</li>
-			<li class="espaco"> Atende todos os dias.</li>
-			<li class="espaco">  </li>
+            <ul class="text-small b">
+            <li class="espaco cor">Natureza: Privada. </li>
+			<li class="espaco cor"> Faz bolos e salgados para aniversários.</li>
+			<li class="espaco cor"> Atende todos os dias.</li>
+			<!--<li class="espaco cor">  </li> -->
             </ul>
           </div>
 
-          <div class="col-6 col-md">
+          <div class="col-6 col-md y">
           	<h5>Localização: </h5>
-          	<ul class="a" style="list-style-type:none">
-          		<li>Rua do Cigano. </li>
-            	<li>Número: 105 </li>
-            	<li>CEP: 59192-000</li>
-            	<li>Bairro: Centro</li>
-            	<li>Cidade: Vila Flor</li>
+          	<ul class="text-small b">
+          		<li class="cor">Rua do Cigano. </li>
+            	<li class="cor">Número: 105 </li>
+            	<li class="cor">CEP: 59192-000</li>
+            	<li class="cor">Bairro: Centro</li>
+            	<li class="cor">Cidade: Vila Flor</li>
             </ul>
           </div>
 
           <div class="col-12 laranja e">
-         	<h4>Para mais informações:<a class="text-muted" href="#">  Contato: (84) 99497-9264 |  CNPJ: - | Facebook: Maria Crinalda  
-	</a></h4>
+         	<h4 class="text-muted">Para mais informações: <!--<a class="text-muted" href="#"> </a>--> 
+         		Contato: (84) 99497-9264 |  CNPJ: - | Facebook: Maria Crinalda  
+	</h4>
          </div>
 
 
 
       </div>
-
+      </div>
 
 </body>
 </html>
