@@ -28,7 +28,9 @@
 	h5
 	{
   	text-align: center;
-  	color:black;
+  	color:#FE9A2E;
+  	font-family: "Georgia, serif"
+
 	}
 	
 	h2
@@ -68,6 +70,60 @@
 	{
 		margin-top: 100px;
 	}
+
+	.atx {
+		padding: 10px
+	}
+
+	.imagem {
+		background-image: url('img/drinks.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		height: 600px
+	}
+
+	.letra {
+		font-style: italic;
+		font-weight: 900
+	}
+
+	.baixar {
+		margin-top: 40px;
+	
+	}
+
+	.baixar2 {
+		margin-top: 100px
+	}
+
+	.fonte {
+		text-align: center;
+		font-style: italic;
+	}
+
+	.t {
+		border-style: double;
+		margin-left: 20px
+	}
+
+	.l {
+		border-style: double;
+	}
+
+	.kkk {
+		border-style: double;
+		margin-right: 20px
+	}
+
+	.circulo {
+		list-style-type: circle;
+	}
+
+	.cor {
+		font-style: italic;
+		color: black;
+	}
+
 	</style>
 
 	<link rel="stylesheet" type="text/css" href="../externo.css" />
@@ -76,7 +132,7 @@
 
 <body>
 <div class="container-fluid">
-	<div class="row">
+		<div class="row">
 	<div class="col-12 d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm laranja">
       <h3 class="my-0 mr-md-auto font-weight-normal">
       	<a href="../index.html">
@@ -91,47 +147,55 @@
     </div>
 
     <div class="row">
-	<div class="col-12 c padding">
-			<h1>Drinks Lanches</h1>
+	<div class="col-12 c padding imagem img-responsive rounded">
+			<h1 class="letra"> Drinks Lanches</h1>
 	</div>
 </div>
 
 	<div class="row">
+		<div class="col-12 laranja e baixar2">
+			<h3 class="fonte"> Veja informações sobre Drinks Lanches</h3>
+		</div>
+	</div>
 
-		<div class="col-6 col-md">
+	<div class="row baixar">
+
+		<div class="col-6 col-md t">
             <h5>Serviços:</h5>
-            <ul class="list-unstyled text-small">
-            <li class="espaco">Locação de espaços: auditório/boates/casa de show/espetáculos/clubes/etc.</li>
+            <ul class="circulo text-small">
+            <li class="espaco cor">Locação de espaços: </li>
+            <li class="espaco cor"> Auditório/boates;</li>
+            <li class="espaco cor"> Casa de show/espetáculos;</li>
+            <li class="espaco cor"> Clubes/etc.</li>
             </ul>
           </div>
-          <div class="row">
 		
-          <div class="col-6 col-md">
-            <h5>Descrição Geral</h5>
-            <ul class="list-unstyled text-small">
-            <li class="espaco">Locação de mesas, cadeiras e local para eventos.</li>
-			<li class="espaco">Natureza: Privada</li>
+          <div class="col-6 col-md l">
+            <h5>Descrição Geral:</h5>
+            <ul class="circulo text-small">
+            <li class="espaco cor">Locação de mesas, cadeiras e local para eventos.</li>
+			<li class="espaco cor">Natureza: Privada</li>
             </ul>
           </div>
 
-          <div class="col-6 col-md">
-          	<h5>Localização</h5>
-          	<ul class="a" style="list-style-type:none">
-          		<li>Rua Auto São José</li>
-            	<li>CEP:59180-000</li>
-            	<li>Cidade: Espírito Santo</li>
+          <div class="col-6 col-md kkk">
+          	<h5>Localização:</h5>
+          	<ul class="circulo" >
+          		<li class="cor">Rua Auto São José</li>
+            	<li class="cor">CEP:59180-000</li>
+            	<li class="cor">Cidade: Espírito Santo</li>
             </ul>
           </div>
           </div>
-          </div>
+         
           <div class="row ee">
          <div class="col-12 laranja">
-         	<h4>Para mais informações:  Contato: (84) 9 9473-0747 </h4>
+         	<h4 class="text-muted">Para mais informações:  Contato: (84) 9 9473-0747 </h4>
          </div>
 </div>
 
-
-   </div>
+ </div>
+  
 
  	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
