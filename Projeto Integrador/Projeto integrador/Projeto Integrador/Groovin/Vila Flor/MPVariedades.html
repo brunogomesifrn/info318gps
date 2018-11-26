@@ -27,6 +27,9 @@
 	{
   	text-align: center;
   	color:black;
+  	font-family: "Georgia, serif";
+  	color: #FE9A2E;
+
 	}
 	
 	h2
@@ -68,6 +71,55 @@
 		margin-top: 130px
 	}
 
+	.imagem {
+		background-image: url('img/mp.jpg');
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 600px
+	}
+
+	.letra {
+		font-style: italic;
+		font-weight: 900
+	}
+
+	.baixar {
+		margin-top: 40px;
+		margin-bottom: -500px
+	}
+
+	.fonte {
+		text-align: center;
+		font-style: italic;
+	}
+
+	.x {
+		border-style: double;
+		margin-left: 20px
+	}
+
+	.z {
+		border-style: double
+	}
+
+	.y {
+		border-style: double;
+		margin-right: 20px 
+	}
+
+	.b {
+		list-style-type: circle;
+	}
+
+	.baixar2 {
+		margin-top: 100px
+	}
+
+	.cor {
+		color: black;
+		font-style: italic;
+	}
+
 	</style>
 
 	<link rel="stylesheet" type="text/css" href="../externo.css" />
@@ -76,7 +128,9 @@
 </head>
 <body>
 
-	<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm laranja">
+	<div class="container-fluid">
+		<div class="row">
+	<div class=" col-12 d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm laranja">
 		<h3 class="my-0 mr-md-auto font-weight-normal">
 			<img src="../gps.png" width="100px" height="100px">
 		</h3>
@@ -86,51 +140,61 @@
         <a class="p-2 text-dark" href="#">Serviço</a>
         <a class="p-2 text-dark" href="#">Menu</a>
       </nav>
+      </div>
   </div>
       <div class="row">
-      	<div class="col-12 c padding">
-      		<h1> MP Variedades </h1>
+      	<div class="col-12 c padding imagem img-responsive roudend">
+      		<h1 class="letra"> MP Variedades </h1>
       	</div>
 
       </div>
+
       <div class="row">
-      	<div class="col-6 col-md">
+      	<div class="col-12 baixar2 laranja e">
+      		<h3 class="fonte"> Veja informações sobre MP Variedades </h3>
+      	</div>
+
+      </div>
+
+      <div class="row baixar">
+      	<div class="col-6 col-md x">
             <h5>Serviços:</h5>
-            <ul class="list-unstyled text-small">
-            <li class="espaco"> Lojas para presentes.</li>
+            <ul class="b text-small">
+            <li class="espaco cor"> Lojas para presentes.</li>
+			<!-- <li class="espaco"> </li>
 			<li class="espaco"> </li>
 			<li class="espaco"> </li>
-			<li class="espaco"> </li>
-			<li class="espaco"> </li>
+			<li class="espaco"> </li> -->
             </ul>
           </div>
 
-          <div class="col-6 col-md">
+          <div class="col-6 col-md z">
             <h5>Descrição Geral: </h5>
-            <ul class="list-unstyled text-small">
-            <li class="espaco">Natureza: privada. </li>
-			<li class="espaco"> Acessórios, roupas e brinquedos. </li>
-			<li class="espaco"> Segunda à sabado, de 08h às 12h e 14h às 19h. </li>
-			<li class="espaco"> </li>
+            <ul class="b text-small">
+            <li class="espaco cor">Natureza: privada. </li>
+			<li class="espaco cor"> Acessórios, roupas e brinquedos. </li>
+			<li class="espaco cor"> Segunda à sabado, de 08h às 12h e 14h às 19h. </li>
+			<!-- <li class="espaco"> </li> -->
             </ul>
           </div>
 
-          <div class="col-6 col-md">
+          <div class="col-6 col-md y">
           	<h5>Localização: </h5>
-          	<ul class="a" style="list-style-type:none">
-          		<li>Rua: Braz Fagundes.</li>
-            	<li>Número: - </li>
-            	<li>CEP: 59192-000</li>
-            	<li>Bairro: Centro</li>
-            	<li>Cidade: Vila Flor</li>
+          	<ul class="b">
+          		<li class="cor">Rua: Braz Fagundes.</li>
+            	<li class="cor">Número: - </li>
+            	<li class="cor">CEP: 59192-000</li>
+            	<li class="cor">Bairro: Centro</li>
+            	<li class="cor">Cidade: Vila Flor</li>
             </ul>
           </div>
 
           <div class="col-12 laranja e">
-         	<h4>Para mais informações:<a class="text-muted" href="#">  Contato: (84) 99462-0769 | Instagram: @sadjanascimento | E-mail: sadjanascmento07@gmail.com. 
-	</a></h4>
+         	<h4 class="text-muted"> Para mais informações: Contato: (84) 99462-0769 | Instagram:<a class="text-muted" href="#">    @sadjanascimento  
+	</a> | E-mail: sadjanascmento07@gmail.com. </h4> 
          </div>
 
+      </div>
       </div>
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
