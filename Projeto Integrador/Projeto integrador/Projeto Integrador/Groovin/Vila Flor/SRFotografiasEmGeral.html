@@ -3,6 +3,7 @@
 <head>
 	<title> SR Fotografias em Geral </title>
 
+
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -26,7 +27,9 @@
 	h5
 	{
   	text-align: center;
-  	color:black;
+  	color:#FE9A2E;
+  	font-family: "Georgia, serif"
+
 	}
 	
 	h2
@@ -34,6 +37,7 @@
     text-align: center;
     color: black;
 	}
+
 
 	.padding
 	{
@@ -68,6 +72,57 @@
 		margin-top: 130px
 	}
 
+	.imagem {
+	
+	background-image: url('img/fotografia.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 600px;
+	
+	}
+
+	.letra {
+		text-align: center;
+		font-style: italic;
+	}
+
+	.fonte {
+		font-weight: 900;
+		font-style: italic;
+	}
+
+	.z {
+		border-style: double;
+		margin-left: 20px
+	}
+
+	.y {
+		border-style: double;
+		margin-right: 20px
+	}
+
+	.aa {
+		border-style: double
+	}
+
+	.baixar {
+		margin-top: 40px;
+		margin-bottom: -500px
+	}
+
+	.baixar2 {
+		margin-top: 100px
+	}
+
+	.cor {
+		font-style: italic;
+		color: black
+	}
+
+	.ea {
+		list-style-type: circle
+	}
+
 	</style>
 
 	<link rel="stylesheet" type="text/css" href="../externo.css" />
@@ -75,8 +130,9 @@
 </head>
 
 	<body>
-
-	<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm laranja">
+		<div class="container-fluid">
+			<div class="row">
+	<div class="col-12 d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm laranja">
 		<h3 class="my-0 mr-md-auto font-weight-normal">
 			<img src="../gps.png" width="100px" height="100px">
 		</h3>
@@ -86,51 +142,60 @@
         <a class="p-2 text-dark" href="#">Serviço</a>
         <a class="p-2 text-dark" href="#">Menu</a>
       </nav>
+      </div>
   </div>
       <div class="row">
-      	<div class="col-12 c padding">
-      		<h1> SR Fotografias em Geral </h1>
+      	<div class="col-12 c padding imagem img-responsive rounded">
+      		<h1 class="fonte"> SR Fotografias em Geral </h1>
       	</div>
 
       </div>
+
       <div class="row">
-      	<div class="col-6 col-md">
+      	<div class="col-12 laranja e baixar2">
+      		<h3 class="letra"> Veja informações sobre SR Fotografias em Geral </h3>
+      	</div>
+      </div>
+
+      <div class="row baixar">
+      	<div class="col-6 col-md z">
             <h5>Serviços:</h5>
-            <ul class="list-unstyled text-small">
-            <li class="espaco"> Fotografia. </li>
-			<li class="espaco"> </li>
-			<li class="espaco"> </li>
-			<li class="espaco"> </li>
-			<li class="espaco"> </li>
+            <ul class="ea text-small">
+            <li class="espaco cor"> Fotografia. </li>
+			<!-- <li class="espaco cor"> </li>
+			<li class="espaco cor"> </li>
+			<li class="espaco cor"> </li>
+			<li class="espaco cor"> </li> -->
             </ul>
           </div>
 
-          <div class="col-6 col-md">
+          <div class="col-6 col-md aa">
             <h5>Descrição Geral: </h5>
-            <ul class="list-unstyled text-small">
-            <li class="espaco">Natureza: privada. </li>
-			<li class="espaco"> Fotografias em geral.  </li>
-			<li class="espaco"> Horário de funcionamento: </li>
-			<li class="espaco"> Atende todos os dias, porém é necessário um agendamento prévio. </li>
+            <ul class="ea text-small">
+            <li class="espaco cor">Natureza: privada. </li>
+			<li class="espaco cor"> Fotografias em geral.  </li>
+			<li class="espaco cor"> Horário de funcionamento: </li>
+			<li class="espaco cor"> Atende todos os dias, porém é necessário um agendamento prévio. </li>
             </ul>
           </div>
 
-          <div class="col-6 col-md">
+          <div class="col-6 col-md y">
           	<h5>Localização: </h5>
-          	<ul class="a" style="list-style-type:none">
-          		<li>Rua: Braz Fagundes.</li>
-            	<li>Número: 176. </li>
-            	<li>CEP: 59192-000</li>
-            	<li>Bairro: Centro</li>
-            	<li>Cidade: Vila Flor</li>
+          	<ul class="ea" >
+          		<li class="cor">Rua: Braz Fagundes.</li>
+            	<li class="cor">Número: 176. </li>
+            	<li class="cor">CEP: 59192-000</li>
+            	<li class="cor">Bairro: Centro</li>
+            	<li class="cor">Cidade: Vila Flor</li>
             </ul>
           </div>
 
           <div class="col-12 laranja e">
-         	<h4>Para mais informações:<a class="text-muted" href="#">  Contato: (84) 99135-4671 | E-mail: 150.jsm.11delegacia@bol.com.br
+         	<h4 class="text-muted">Para mais informações: Contato: (84) 99135-4671 | E-mail: <a class="text-muted" href="#">    150.jsm.11delegacia@bol.com.br
 	</a></h4>
          </div>
 
+      </div>
       </div>
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
