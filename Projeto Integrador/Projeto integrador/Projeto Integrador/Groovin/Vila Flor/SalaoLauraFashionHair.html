@@ -26,7 +26,10 @@
 	h5
 	{
   	text-align: center;
-  	color:black;
+  	color:#FE9A2E;
+  	font-family: "Georgia, serif"
+
+
 	}
 	
 	h2
@@ -68,14 +71,64 @@
 		margin-top: 130px
 	}
 
+	.imagem {
+		background-image: url('img/salão.jpg');
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 600px
+	}
+
+	.letra {
+		font-style: italic;
+		font-weight: 900
+	}
+
+	.fonte {
+		text-align: center;s
+		font-style: italic;
+	}
+
+	.baixar {
+		margin-top: 40px;
+		margin-bottom: -500px
+	}
+
+	.baixar2 {
+		margin-top: 100px
+	}
+
+	.x {
+		border-style: double;
+		margin-left: 20px
+	}
+
+	.y {
+		border-style: double;
+		margin-right: 20px 
+	}
+
+	.z {
+		border-style: double;
+	}
+
+	.cor {
+		font-style: italic;
+		color: black
+	}
+
+	.b {
+		list-style-type: circle;
+	}
+
 	</style>
 
 	<link rel="stylesheet" type="text/css" href="../externo.css" />
 
 </head>
 <body>
-
-	<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm laranja">
+		<div class="container-fluid">
+			<div class="row">
+	<div class=" col-12 d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm laranja">
 		<h3 class="my-0 mr-md-auto font-weight-normal">
 			<img src="../gps.png" width="100px" height="100px">
 		</h3>
@@ -85,54 +138,65 @@
         <a class="p-2 text-dark" href="#">Serviço</a>
         <a class="p-2 text-dark" href="#">Menu</a>
       </nav>
+      </div>
   </div>
       <div class="row">
-      	<div class="col-12 c padding">
-      		<h1> Realeza </h1>
+      	<div class="col-12 c padding imagem img-responsive roudend">
+      		<h1 class="letra"> Salão Laura Fashion Hair </h1>
       	</div>
 
       </div>
+
       <div class="row">
-      	<div class="col-6 col-md">
+      	<div class="col-12 laranja e baixar2">
+      		<h3 class="fonte"> Veja informações sobre o Salão Laura Fashion Hair</h3>
+      	</div>
+
+      </div>
+
+      <div class="row baixar">
+      	<div class="col-6 col-md x">
             <h5>Serviços:</h5>
-            <ul class="list-unstyled text-small">
-            <li class="espaco"> Salão de beleza.</li>
-			<li class="espaco"> </li>
-			<li class="espaco"> </li>
-			<li class="espaco"> </li>
-			<li class="espaco"> </li>
+            <ul class="b text-small">
+            <li class="espaco cor"> Salão de beleza.</li>
+			<!--<li class="espaco cor"> </li>
+			<li class="espaco cor"> </li>
+			<li class="espaco cor"> </li>
+			<li class="espaco cor"> </li> -->
             </ul>
           </div>
 
-          <div class="col-6 col-md">
+          <div class="col-6 col-md z">
             <h5>Descrição Geral: </h5>
-            <ul class="list-unstyled text-small">
-            <li class="espaco">Natureza: privada. </li>
-			<li class="espaco"> Faz cabelos, unhas, maquiagem, sobrancelha e depilação. </li>
-			<li class="espaco"> Horário de funcionamento: </li>
-			<li class="espaco"> Segunda à sábado em horários agendados. </li>
+            <ul class="b text-small">
+            <li class="espaco cor">Natureza: privada. </li>
+			<li class="espaco cor"> Faz cabelos, unhas, maquiagem, sobrancelha e depilação. </li>
+			<li class="espaco cor"> Horário de funcionamento: </li>
+			<li class="espaco cor"> Segunda à sábado em horários agendados. </li>
             </ul>
           </div>
 
-          <div class="col-6 col-md">
+          <div class="col-6 col-md y">
           	<h5>Localização: </h5>
-          	<ul class="a" style="list-style-type:none">
-          		<li>Rua: Braz Fagundes.</li>
-            	<li>Número: - </li>
-            	<li>CEP: 59192-000</li>
-            	<li>Bairro: Centro</li>
-            	<li>Cidade: Vila Flor</li>
+          	<ul class="b">
+          		<li class="cor">Rua: Braz Fagundes.</li>
+            	<li class="cor">Número: - </li>
+            	<li class="cor">CEP: 59192-000</li>
+            	<li class="cor">Bairro: Centro</li>
+            	<li class="cor">Cidade: Vila Flor</li>
             </ul>
           </div>
 
           <div class="col-12 laranja e">
-         	<h4>Para mais informações:<a class="text-muted" href="#">  Contato: (84)99108-8781 | Instagram: @lauracarlosvf | Facebook: Salão Laura Fashion
+         	<h4 class="text-muted"> Para mais informações: Contato: (84)99108-8781 | Instagram: @lauracarlosvf | Facebook: <a class="text-muted" href="https://www.facebook.com/pg/laura.brenno.net/photos/?ref=page_internal">     Salão Laura Fashion
+	
 	</a></h4>
+         
          </div>
 
       </div>
 
-
+</div>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
