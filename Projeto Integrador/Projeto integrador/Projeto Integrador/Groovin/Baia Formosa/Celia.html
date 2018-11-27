@@ -78,13 +78,49 @@
     color: rgb(40,125,40)
   }
 
+  .imagem {
+  	
+  	background-image: url('img/buffet.jpg');
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	height: 600px
+
+  }
+
+  .e {
+  	margin-top: 130px
+  }
+
+  .fonte {
+  	text-align: center;
+  	font-style: italic;
+  }
+
+  .baixar {
+  	margin-top: 40px
+  }
+
+  .borda1 {
+  	border-style: double;
+  	margin-left: 20px
+  }
+
+  .borda2 {
+  	border-style: double;
+  }
+
+  .borda3 {
+  	border-style: double;
+  	margin-right: 20px 
+  }
+
 	</style>
 
 	<link rel="stylesheet" type="text/css" href="../externo.css" />
 </head>
 
 <body>
-	<div class="conteiner-fluid">
+	<div class="container-fluid">
 		<div class="row">
 	<div class="col-12 d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm laranja">
 		<h3 class="my-0 mr-md-auto font-weight-normal">
@@ -100,15 +136,21 @@
     </div>
 
     <div class="row">
-	<div class="col-12 c padding">
+	<div class="col-12 c padding imagem img-responsive rounded">
 		<h1>Celia</h1>
 	</div>
 </div>
 
-
 	<div class="row">
+		<div class="col-12 laranja e">
+			<h3 class="fonte"> Veja informações sobre Celia</h3>
+		</div>
+	</div>
 
-		<div class="col-6 col-md">
+
+	<div class="row baixar">
+
+		<div class="col-6 col-md borda1">
             <h5>Serviços:</h5>
             <ul class="list-unstyled text-small">
             <li class="espaco">Serviço de café/buffet</li>
@@ -118,13 +160,13 @@
           </div>
 
 		
-          <div class="col-6 col-md">
+          <div class="col-6 col-md borda2">
             <h5>Descrição Geral</h5>
 			<li class="espaco">Natureza: Privada</li>
             </ul>
           </div>
 
-          <div class="col-6 col-md">
+          <div class="col-6 col-md borda3">
           	<h5>Localização</h5>
           	<ul class="a" style="list-style-type:none">
           		<li> Rua João Alexandre</li>
@@ -135,7 +177,7 @@
             </ul>
           </div>
 
-         <div class="col-12 laranja">
+         <div class="col-12 laranja e">
          	<h4>Para mais informações:  Contato:    (84) 99137-4432 
 </h4>
          </div>
