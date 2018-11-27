@@ -27,7 +27,8 @@
   h5
   {
   	text-align: center;
-    color: black;
+    color: #FE9A2E;
+    font-family: "Georgia, serif"
   }
   h2
   {
@@ -84,14 +85,62 @@ body
     color: rgb(40,125,40)
   }
 
+  .fonte {
+    font-style: italic;
+    font-weight: 900
+  }
+
+  .letra {
+    text-align: center;
+    font-style: italic;
+  }
+
+  .baixar {
+    margin-top: 100px
+  }
+
+  .baixar2 {
+    margin-top: 130px
+  }
+
+  .descer {
+    margin-top: 40px
+  }
+
+  .borda {
+    border-style: double;
+    margin-left: 20px
+  }
+
+  .borda2 {
+    border-style: double;
+
+  }
+
+  .borda3 {
+    border-style: double;
+    margin-right: 20px
+  }
+
+  .cor {
+    color: black;
+    font-style: italic;
+  }
+
+  .ab {
+    list-style-type: circle;
+  }
+
 	</style>
 
 <link rel="stylesheet" type="text/css" href="../externo.css" />
 </head>
 
 <body>
-
-	 <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm laranja">
+    
+    <div class="container-fluid">
+	   <div class="row">
+   <div class="col-12 d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm laranja">
       <h3 class="my-0 mr-md-auto font-weight-normal">
         <a href="../index.html">
       <img src="../gps.png" width="100px" height="100px"></a>
@@ -102,10 +151,10 @@ body
         <a class="p-2 ax " href="../Produtos/Produtos.html">Produto</a>
       </nav>
     </div>
-
+</div>
     <div class="row">
 	<div class="col-12 c padding">
-		<h1>Alex Sol (Solange Vieira)</h1>
+		<h1 class="fonte">Alex Sol (Solange Vieira)</h1>
 	</div>
 </div>
 <div class="row">
@@ -115,43 +164,54 @@ body
     </div>
     <div class="col-xl 3 col-lg 3 col-md 12 col-sm 12 margem2"><img src="img/img3.jpg" class="img-fluid rounded a" height="400px" width="400px"> 
     </div>
+
 </div>
-	<div class="row">
-  <div class="col-6 col-md">
+
+  <div class="row">
+    <div class="col-12 laranja baixar">
+        <h3 class="letra"> Veja informações sobre Alex Sol (Solange Vieira)</h3>
+    </div>
+  </div>
+	
+  <div class="row descer">
+    <div class="col-6 col-md borda">
     <h5>Serviços:</h5>
-        <ul class="list-unstyled text-small separar">
-        <li>Serviço de café/buffet</li>
-        <li>Decoração</li>
+        <ul class="ab text-small separar">
+        <li class="cor">Serviço de café/buffet</li>
+        <li class="cor">Decoração</li>
         </ul>
   </div>
 
-  <div class="col-6 col-md">
-    <h5>Descrição Geral</h5>
-        <ul class="list-unstyled text-small">
-        <li>Serviço de decoração e buffet</li>
-        <li>Horário de Funcionamento: Pelas redes sociais </li>
-        <li>Natureza: Privado</li>
+  <div class="col-6 col-md borda2">
+    <h5>Descrição Geral:</h5>
+        <ul class="ab text-small">
+        <li class="cor">Serviço de decoração e buffet</li>
+        <li class="cor">Horário de Funcionamento: Pelas redes sociais </li>
+        <li class="cor">Natureza: Privado</li>
         </ul>
   </div>
 
-  <div class="col-6 col-md class">
-    <h5>Localização</h5>
-        <ul class="list-unstyled text-small">
-        <li>Centro</li>
-        <li>CEP:59190-000</li>
-        <li>Bairro: Centro</li>
-        <li>Cidade: Canguaretama</li>
+  <div class="col-6 col-md borda3">
+    <h5>Localização:</h5>
+        <ul class="ab text-small">
+        <li class="cor">Centro</li>
+        <li class="cor">CEP:59190-000</li>
+        <li class="cor">Bairro: Centro</li>
+        <li class="cor">Cidade: Canguaretama</li>
         </ul>
   </div>
+  </div>
 
-         <div class="col-12 laranja">
-         	<h4>Para mais informações:  Contato: (84) 9 9118-5917 | Instagram: @solangevieiraa | Facebok: Solange Vieira | WhatsApp: (84) 9 9118-5917 <h4>
+        <div class="row">
+         <div class="col-12 laranja baixar2">
+         	<h4 class="text-muted">Para mais informações:  Contato: (84) 9 9118-5917 | Instagram: @solangevieiraa | Facebok: <a class="text-muted" href="https://www.facebook.com/solange.vieira.1840"> Solange Vieira </a> | WhatsApp: (84) 9 9118-5917 <h4>
          </div>
-  
-</div>
+        </div>
+        
 
    </div>
-</div>
+
+
 
  	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
