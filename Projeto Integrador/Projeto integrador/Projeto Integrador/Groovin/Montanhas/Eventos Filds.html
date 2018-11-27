@@ -12,8 +12,46 @@
 
 
 	<style type="text/css">
+	.bl {
+		border-style: double;
+		margin-left: 50px
+	}
 
-		
+	.bc {
+		border-style: double;
+	}
+
+	.br {
+		border-style: double;
+		margin-right: 20px
+	}
+	.aff {
+		font-weight: 900;
+		font-style: italic;
+	}
+	.fundo{
+	background-image: url(img/ef2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 900px
+	}
+	.meio {
+	text-align: center;
+	}
+	.ax {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: white
+	}
+
+  a:hover {
+    text-decoration: none;
+    color: rgb(40,125,40)
+  	}
+	.sobepeste {
+	margin-bottom: -80px		
+	}
 	h1,p
 	{
   	text-align: center;
@@ -29,7 +67,20 @@
 	h5
 	{
   	text-align: center;
-  	color:black;
+  	color:#FE9A2E;
+  	font-family: "Georgia, serif";
+	}
+		
+	h1,p
+	{
+  	text-align: center;
+  	color: black;
+	}
+	
+	h4
+	{
+  	text-align: center;
+  	color: white;
 	}
 	
 	h2
@@ -101,30 +152,33 @@
 </head>
 
 <body>
-
-	<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm laranja">
+<div class="container-fluid">
+	<div class="row">
+	<div class="d-flex flex-column col-xg-12 col-lg-12 flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm laranja">
       <h3 class="my-0 mr-md-auto font-weight-normal">
 		<img src="../gps.png" width="100px" height="100px">
       </h3>
       <nav class="my-2 my-md-0 mr-md-3">
-        <a class="p-2 text-dark" href="#">Cidade</a>
-        <a class="p-2 text-dark" href="#">Serviço</a>
-        <a class="p-2 text-dark" href="#">Menu</a>
+        <a class="p-2 ax" href="#">Cidade</a>
+        <a class="p-2 ax" href="#">Serviço</a>
+        <a class="p-2 ax" href="#">Menu</a>
       </nav>
     </div>
+	</div>
 
     <div class="row">
-	<div class="col-12 c padding">
-		<h1> Eventos <br/> Filds</h1>
-		<img class="b img-fluid" src="img/ef2.jpg" height="600" width="500">
-		<img class="b img-fluid" src="img/ef.jpg" height="600" width="350">
-		<img class="b img-fluid" src="img/ef3.jpg" height="600" width="500">
+	<div class="col-12 c fundo col-xg-12 col-lg-12 padding">
+		<h1 class="aff"> Eventos Filds</h1>
 	</div>
 	</div>
-
+							<br/><br/>
+	<div class="row sobepeste">
+		<div class="col-12 laranja">
+			<h3 class="fonte meio"> Veja informações sobre Eventos Filds </h3>
+		</div>
+	</div>
 	<div class="row">
-
-		<div class="col-6 col-md-4 servicos">
+		<div class="col-6 col-md-4 col-lg-3 servicos bl">
             <h5>Serviços:</h5>
             <ul class="list-unstyled text-small">
             <li class="espaco"> Locação de espaços: auditório/boates/casa de show/espetáculos/clubes/etc. </li>
@@ -132,14 +186,14 @@
           </div>
 
 		
-          <div class="col-6 col-md-4 dg">
+          <div class="col-6 col-md-4 col-lg-4 bc dg">
             <h5>Descrição Geral</h5>
             <ul class="list-unstyled text-small">
             <li class="espaco">Estrutura moderna para realização de eventos como casamentos, debutantes, formatura, etc. O espaço possui Hall de entrada, camarim climatizado, palco com escada, wi-fi disponível, entre outros. </li>
             </ul>
           </div>
 
-          <div class="col-6 col-md-4 localizacao">
+          <div class="col-6 br col-lg-4 col-md-4 localizacao">
           	<h5>Localização</h5>
           	<ul class="a" style="list-style-type:none">
           		<li>Centro</li>
@@ -149,11 +203,13 @@
             	<li>Cidade: Montanhas</li>
             </ul>
           </div>
-
-         <div class="col-12 laranja">
-         	<h4>Para mais informações: Contatos: (84) 98738-4505 | Facebook: www.facebook.com/eventosfields</h4>
+	</div>					<br/><br/>
+		<div class="row">					
+         <div class="col-12 col-xg-12 col-lg-12 laranja">
+         	<h4 class="text-muted">Para mais informações: Contatos: (84) 98738-4505 | Facebook: www.facebook.com/eventosfields</h4>
          </div>
-
+		</div>
+	</div>
 	</div>
 
  	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
