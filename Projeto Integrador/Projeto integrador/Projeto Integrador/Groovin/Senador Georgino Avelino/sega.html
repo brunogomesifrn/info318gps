@@ -12,7 +12,19 @@
 
 
 	<style type="text/css">
+	.bl {
+		border-style: double;
+		margin-left: 20px
+	}
 
+	.bc {
+		border-style: double;
+	}
+
+	.br {
+		border-style: double;
+		margin-right: 20px
+	}
 		
 	h1,p
 	{
@@ -68,19 +80,19 @@
 	
 	ul.a
 	{
-	
+		}
 	.ax {
     font-family: inherit;
     font-weight: 500;
     line-height: 1.1;
     color: white
-    
-  }
+	}
 
   a:hover {
     text-decoration: none;
     color: rgb(40,125,40)
-  }
+  	}
+	.meio {
 	text-align: center;
 	}
 	.espaco
@@ -100,8 +112,9 @@
 </head>
 
 <body>
-
-	<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm laranja">
+<div class="container-fluid">
+	<div class="row">
+	<div class="d-flex col-xg-12 col-lg-12 flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm laranja">
       <h3 class="my-0 mr-md-auto font-weight-normal">
 		<img src="../gps.png" width="100px" height="100px">
       </h3>
@@ -111,16 +124,21 @@
         <a class="p-2 ax" href="../Serviços/servicos.html">Serviços</a>
       </nav>
     </div>
-
+</div>
     <div class="row">
 	<div class="col-12 c fundo padding">
 		<h1 class="aff">Venx Eventos</h1>
 	</div>
 	</div>
-
+						<br/>
 	<div class="row">
-
-		<div class="col-6 col-md">
+		<div class="col-12 laranja">
+			<h3 class="fonte meio"> Veja informações sobre Venx Eventos </h3>
+		</div>
+	</div>
+						<br/>
+	<div class="row">
+		<div class="col-6 col-md bl">
             <h5>Serviços:</h5>
             <ul class="list-unstyled text-small">
             <li class="espaco"> Oferece serviços de som para festas.  </li>
@@ -135,7 +153,7 @@
           </div>
 
 		
-          <div class="col-6 col-md">
+          <div class="col-6 col-md bc">
             <h5>Descrição Geral</h5>
             <ul class="list-unstyled text-small">
             <li class="espaco">Natureza: privada.</li>
@@ -146,7 +164,7 @@
             </ul>
           </div>
 
-          <div class="col-6 col-md">
+          <div class="col-6 col-md br">
           	<h5>Localização</h5>
           	<ul class="a" style="list-style-type:none">
           		<li>Centro</li>
@@ -164,7 +182,7 @@
 		
          ------------------------------->
 	</div>
-
+</div>
 
  	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
