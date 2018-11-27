@@ -77,6 +77,60 @@
 		height: 600px
 	}
 
+	.x {
+		border-style: double;
+		margin-left: 20px
+	}
+
+	.av {
+		border-style: double;
+	}
+
+	.ata {
+		border-style: double;
+		margin-right: 20px
+	}
+
+	.letra {
+		text-align: center;
+		font-style: italic;
+
+	}
+
+	.baixar {
+		margin-top: 40px
+	}
+
+	.baixar2 {
+		margin-top: 100px
+	}
+
+	.cor {
+		font-style: italic;
+		color: black;
+	}
+
+	.omg {
+		list-style-type: circle;
+	}
+
+	.ao {
+		font-style: italic;
+		font-weight: 900
+	}
+
+	.ap {
+		font-family: inherit;
+		font-weight: 500;
+		line-height: 1.1;
+		color: white
+	}
+
+	a:hover {
+		text-decoration: none;
+		color: rgb(40,125,40);
+	}
+
 	</style>
 
 	<link rel="stylesheet" type="text/css" href="../externo.css" />
@@ -84,62 +138,74 @@
 
 </head>
 <body>
-
-	<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm laranja">
+		<div class="container-fluid">
+			<div class="row">
+	<div class=" col-12 d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm laranja">
 		<h3 class="my-0 mr-md-auto font-weight-normal">
 			<img src="../gps.png" width="100px" height="100px">
 		</h3>
 		
 	  <nav class="my-2 my-md-0 mr-md-3">
-        <a class="p-2 text-dark" href="#">Cidade</a>
-        <a class="p-2 text-dark" href="#">Serviço</a>
-        <a class="p-2 text-dark" href="#">Menu</a>
+        <a class="p-2 ap" href="../Cidades/Espirito.html">Cidade</a>
+        <a class="p-2 ap" href="../Serviços/servico.html">Serviços</a>
+        <a class="p-2 ap" href="../Produtos/Produtos.html">Menu</a>
       </nav>
+      </div>
   </div>
       <div class="row">
       	<div class="col-12 c padding imagem img-responsive rounded">
-      		<h1> Rick Fotografias </h1>
+      		<h1 class="ao"> Rick Fotografias </h1>
       	</div>
 
       </div>
+
       <div class="row">
-      	<div class="col-6 col-md">
+      	<div class="col-12 laranja e baixar2">
+      		<h3 class="letra"> Veja informações sobre Rick Fotografias</h3>
+      	</div>
+      </div>
+
+      <div class="row baixar">
+      	<div class="col-6 col-lg-4 x">
             <h5>Serviços:</h5>
-            <ul class="list-unstyled text-small">
-            <li class="espaco"> Filmagem/ Fotografia </li>
+            <ul class="omg text-small">
+            <li class="espaco cor"> Filmagem/ Fotografia. </li>
+			 <!-- <li class="espaco"> </li>
 			<li class="espaco"> </li>
 			<li class="espaco"> </li>
-			<li class="espaco"> </li>
-			<li class="espaco"> </li>
+			<li class="espaco"> </li> -->
             </ul>
           </div>
 
-          <div class="col-6 col-md">
+          <div class="col-6 col-md av">
             <h5>Descrição Geral: </h5>
-            <ul class="list-unstyled text-small">
-            <li class="espaco">Natureza: privada. </li>
-			<li class="espaco"> Ensaios fotográficos romântico de bebê e individual. </li>
-			<li class="espaco">  Cobertura completa de todos os tipos de eventos. </li>
-			<li class="espaco">  </li>
+            <ul class="omg text-small">
+            <li class="espaco cor">Natureza: privada. </li>
+			<li class="espaco cor"> Ensaios fotográficos romântico de bebê e individual. </li>
+			<li class="espaco cor">  Cobertura completa de todos os tipos de eventos. </li>
+			<li class="espaco cor">  </li>
             </ul>
           </div>
 
-          <div class="col-6 col-md">
+          <div class="col-6 col-md ata">
           	<h5>Localização: </h5>
-          	<ul class="a" style="list-style-type:none">
-          		<li>Rua: - </li>
-            	<li>Número: - </li>
-            	<li>CEP:59180-000. </li>
-            	<li>Bairro: Centro</li>
-            	<li>Cidade: Espírito Santo</li>
+          	<ul class="omg" >
+          		<li class="cor">Rua: - </li>
+            	<li class="cor">Número: - </li>
+            	<li class="cor">CEP:59180-000. </li>
+            	<li class="cor">Bairro: Centro</li>
+            	<li class="cor">Cidade: Espírito Santo</li>
             </ul>
           </div>
+          </div>
 
+          <div class="row">
           <div class="col-12 laranja e">
-         	<h4 class="text-muted">Para mais informações: Contato: (84) 9 9130-6697 | Facebook: | E-mail: ricardosergio1997@hotmail.com <a class="text-muted" href="https://www.facebook.com/ricardo.sergio.14">   Ricardo Sérgio 
+         	<h4 class="text-muted">Para mais informações: Contato: (84) 9 9130-6697 |  | E-mail: ricardosergio1997@hotmail.com | Facebook:   <a class="text-muted" href="https://www.facebook.com/ricardo.sergio.14">   Ricardo Sérgio
 	</a></h4>
          </div>
-
+         </div>
+      
       </div>
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
