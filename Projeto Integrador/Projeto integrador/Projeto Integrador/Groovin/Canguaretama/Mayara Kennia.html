@@ -28,6 +28,8 @@
   h5
   {
   	text-align: center;
+    color: #FE9A2E;
+    font-family: "Georgia, serif"
   }
 
   .class li{
@@ -52,8 +54,10 @@ height: 200px;
 
 .separar li{
   padding-left: 50px;
-body
-  {
+  }
+
+  body {
+
   background-color: white;
   }
   
@@ -61,7 +65,7 @@ body
   {
   text-align: center;
   }	
-  .bb.cc
+  .bb,.cc
   {
   padding-left: 50px; 
   }
@@ -76,7 +80,51 @@ body
 
   a:hover {
     text-decoration: none;
-    color: rgb(40,125,40)
+    color: rgb(40,125,40);
+  }
+
+  .baixarimg {
+    margin-top: 20px
+  }
+
+  .letra {
+    text-align: center;
+    font-style: italic;
+  }
+
+  .baixar {
+    margin-top: 100px
+  }
+
+  .baixar2 {
+    margin-top: 40px
+  }
+
+  .borda {
+    border-style: double;
+    margin-left: 20px 
+  }
+
+  .borda2 {
+    border-style: double;
+  }
+
+  .borda3 {
+    border-style: double;
+    margin-right: 20px 
+  }
+
+  .rodape {
+    margin-top: 130px
+  }
+
+  .cor {
+    colo: black;
+    font-style: italic;
+  }
+
+  .circulo {
+    list-style-type: circle;
   }
 
 	</style>
@@ -85,74 +133,86 @@ body
 
 <body>
 
-	 <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm laranja">
+  <div class="container-fluid"> 
+	   <div class="row">
+   <div class="col-12 d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm laranja">
       <h3 class="my-0 mr-md-auto font-weight-normal">
         <a href="../index.html">
       <img src="../gps.png" width="100px" height="100px"></a>
      </h3>      
        <nav class="my-2 my-md-0 mr-md-3">
-        <a class="p-2 ax " href="../Cidades/Canguaretama.html">Cidade</a>
-        <a class="p-2 ax " href="../Serviços/servicos.html">Serviço</a>
-        <a class="p-2 ax " href="../Produtos/Produtos.html">Produto</a>
+        <a class="p-2 ax" href="../Cidades/Canguaretama.html">Cidade</a>
+        <a class="p-2 ax" href="../Serviços/servicos.html">Serviço</a>
+        <a class="p-2 ax" href="../Produtos/Produtos.html">Produto</a>
       </nav>
+    </div>
     </div>
 
     <div class="row">
-	<div class="col-12 c padding">
+	
+  <div class="col-12 c padding">
 		<h1>Mayara Kennia</h1>
 	</div>
 </div>
+
 <div class="row">
-    <div class="col-xl 3 col-lg 3 col-md 12 col-sm 12 margem2 bb"><img src="img/img10.png" class="img-fluid rounded a" height="500px" width="500px">
+    <div class="col-xl 3 col-lg 3 col-md 12 col-sm 12 margem2 bb"><img src="img/img10.png" class="img-fluid rounded a" height="450px" width="450px">
     </div>
     <div class="col-xl 3 col-lg 3 col-md 12 col-sm 12 margem2"><img src="img/img11.png" class="img-fluid rounded a" height="450px" width="450px"> 
     </div>
     <div class="col-xl 3 col-lg 3 col-md 12 col-sm 12 margem2"><img src="img/img12.png" class="img-fluid rounded a" height="450px" width="450px"> 
     </div>
   </div>
-    <div class="row">
+    
+    <div class="row baixarimg">
     <div class="col-xl 3 col-lg 3 col-md 12 col-sm 12 margem2 cc"><img src="img/img13.jpg" class="img-fluid rounded a" height="450px" width="450px"> 
     </div>
      <div class="col-xl 3 col-lg 3 col-md 12 col-sm 12 margem2"><img src="img/img14.jpg" class="img-fluid rounded a" height="450px" width="450px"> 
     </div>
 </div>
-</div>
-	<div class="row">
-  <div class="col-6 col-md">
+
+  <div class="row">
+    <div class="col-12 laranja baixar">
+      <h3 class="letra"> Veja informações sobre Mayara Kennia</h3>
+    </div>
+  </div>
+
+	<div class="row baixar2">
+  <div class="col-6 col-md borda">
     <h5>Serviços:</h5>
-        <ul class="list-unstyled text-small separar">
-        <li>Filmagem/ Fotografia</li>
+        <ul class="circulo text-small separar">
+        <li class="cor">Filmagem/ Fotografia.</li>
         </ul>
   </div>
 
-  <div class="col-6 col-md">
-    <h5>Descrição Geral</h5>
-        <ul class="list-unstyled text-small">
-        <li>Atua no ramo da fotografia</li>
-        <li>Horário de Funcionamento: Pelas redes sociais</li>
-        <li>Natureza: Privado</li>
+  <div class="col-6 col-md borda2">
+    <h5>Descrição Geral:</h5>
+        <ul class="circulo text-small">
+        <li class="cor">Atua no ramo da fotografia.</li>
+        <li class="cor">Horário de Funcionamento: Pelas redes sociais.</li>
+        <li class="cor">Natureza: Privado.</li>
         </ul>
   </div>
 
-  <div class="col-6 col-md class">
-    <h5>Localização</h5>
-        <ul class="list-unstyled text-small">
-        <li>Rua Pedro Velho</li>
-        <li>Número: 21º</li>
-        <li>CEP:59190-000</li>
-        <li>Bairro: Centro </li>
-        <li>Cidade: Canguaretama</li>
+  <div class="col-6 col-md borda3">
+    <h5>Localização:</h5>
+        <ul class="circulo text-small">
+        <li class="cor">Rua Pedro Velho.</li>
+        <li class="cor">Número: 21</li>
+        <li class="cor">CEP:59190-000.</li>
+        <li class="cor">Bairro: Centro. </li>
+        <li class="cor">Cidade: Canguaretama.</li>
         </ul>
   </div>
-
-         <div class="col-12 laranja">
-         	<h4>Para mais informações:  Contato: (84) 9 9146-7402 | Instagram:  @mayarakenia | WhatsApp: (84) 9 9146-7402<h4>
+  </div>
+          <div class="row">
+         <div class="col-12 laranja rodape">
+         	<h4 class="text-muted"> Para mais informações:  Contato: (84) 9 9146-7402 | Instagram:  @mayarakenia | WhatsApp: (84) 9 9146-7402<h4>
          </div>
-  
-</div>
+          </div>
 
-   </div>
-</div>
+  </div>
+
 
  	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
