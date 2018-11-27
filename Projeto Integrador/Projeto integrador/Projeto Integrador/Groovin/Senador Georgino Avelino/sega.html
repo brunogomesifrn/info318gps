@@ -12,8 +12,26 @@
 
 
 	<style type="text/css">
+	.bl {
+		border-style: double;
+		margin-left: 20px
+	}
 
-		
+	.bc {
+		border-style: double;
+	}
+
+	.br {
+		border-style: double;
+		margin-right: 20px
+	}
+	.fonte {
+	text-align: center;
+	font-style: italic;
+	}
+	.circulo {
+	list-style-type: circle;
+	}
 	h1,p
 	{
   	text-align: center;
@@ -29,7 +47,8 @@
 	h5
 	{
   	text-align: center;
-  	color:black;
+  	color:#FE9A2E;
+  	font-family: "Georgia, serif";
 	}
 	
 	h2
@@ -50,10 +69,14 @@
 
 	
 	}
+	.aff {
+		font-weight: 900;
+		font-style: italic;
+	}
 
 	.margin
 	{
-	margin-top: 25px;  
+	margin-top: 125px;  
 	}
 
 	body
@@ -63,11 +86,30 @@
 	
 	ul.a
 	{
+		}
+	.ax {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: white
+	}
+
+  a:hover {
+    text-decoration: none;
+    color: rgb(40,125,40)
+  	}
+	.meio {
 	text-align: center;
 	}
 	.espaco
 	{
 		padding-left: 50px;
+	}
+	.fundo {
+		background-image: url('som.jpg');
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 600px;
 	}
 	</style>
 
@@ -76,69 +118,67 @@
 </head>
 
 <body>
-
-	<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm laranja">
+<div class="container-fluid">
+	<div class="row">
+	<div class="d-flex col-xg-12 col-lg-12 flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm laranja">
       <h3 class="my-0 mr-md-auto font-weight-normal">
 		<img src="../gps.png" width="100px" height="100px">
       </h3>
       <nav class="my-2 my-md-0 mr-md-3">
-        <a class="p-2 text-dark" href="#">Cidade</a>
-        <a class="p-2 text-dark" href="#">Serviço</a>
-        <a class="p-2 text-dark" href="#">Menu</a>
+        <a class="p-2 ax" href="../Cidades/Senador.html">Cidade</a>
+        <a class="p-2 ax" href="../Produtos/Produtos.html">Produtos</a>
+        <a class="p-2 ax" href="../Serviços/servicos.html">Serviços</a>
       </nav>
     </div>
-
+</div>
     <div class="row">
-	<div class="col-12 c padding">
-		<h1>Venx Eventos</h1>
+	<div class="col-12 c fundo padding">
+		<h1 class="aff">Venx Eventos</h1>
 	</div>
 	</div>
-
+						<br/>
 	<div class="row">
-
-		<div class="col-6 col-md">
+		<div class="col-12 laranja">
+			<h3 class="fonte meio"> Veja informações sobre Venx Eventos </h3>
+		</div>
+	</div>
+						<br/>
+	<div class="row">
+		<div class="col-6 col-md bl">
             <h5>Serviços:</h5>
-            <ul class="list-unstyled text-small">
-            <li class="espaco"> Oferece serviços de som para festas.  </li>
-			<li class="espaco"></li>
-			<li class="espaco"></li>
-			<li class="espaco"></li>
-			<li class="espaco"></li>
-			<li class="espaco"></li>
-			<li class="espaco"></li>
-			<li class="espaco"></li>
+            <ul class="circulo text-small">
+            <li class="fonte"> Oferece serviços de som para festas.  </li>
             </ul>
           </div>
 
 		
-          <div class="col-6 col-md">
+          <div class="col-6 col-md bc">
             <h5>Descrição Geral</h5>
-            <ul class="list-unstyled text-small">
-            <li class="espaco">Natureza: privada.</li>
-			<li class="espaco"></li>
-			<li class="espaco"></li>
-			<li class="espaco"></li>
-			<li class="espaco"></li>
+            <ul class="circulo text-small">
+            <li class="fonte">Natureza: privada.</li>
+			
             </ul>
           </div>
 
-          <div class="col-6 col-md">
+          <div class="col-6 col-md br">
           	<h5>Localização</h5>
-          	<ul class="a" style="list-style-type:none">
-          		<li>Centro</li>
-            	<li>Número: -/</li>
-            	<li>CEP:59170-000</li>
-            	<li>Bairro: Centro</li>
-            	<li>Cidade: Senador Georgino Avelino</li>
+          	<ul class="a circulo">
+          		<li class="fonte">Centro</li>
+            	<li class="fonte">Número: -/</li>
+            	<li class="fonte">CEP:59170-000</li>
+            	<li class="fonte">Bairro: Centro</li>
+            	<li class="fonte">Cidade: Senador Georgino Avelino</li>
             </ul>
           </div>
 
-         <div class="col-12 laranja">
-         	<h4>Para mais informações:<a class="text-muted" href="#">  Contato: (84) 9 8125-5811 |  CNPJ: - | Instagram: @jeferson5030 </a> </h4>
+         <div class="col-12 col-lg-12 col-xg-12 laranja margin">
+         	<h4 class="text-muted">Para mais informações: Contato: (84) 9 8125-5811 |  CNPJ: - | Instagram: <a class="text-muted" href="#">@jeferson5030 </a> </h4>
          </div>
-
+         <!-- ---------------------------
+		
+         ------------------------------->
 	</div>
-
+</div>
 
  	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
