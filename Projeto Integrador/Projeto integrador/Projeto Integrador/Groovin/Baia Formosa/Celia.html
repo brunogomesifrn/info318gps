@@ -29,7 +29,9 @@
 	h5
 	{
   	text-align: center;
-  	color:black;
+  	color:#FE9A2E;
+  	font-family: "Georgia, serif"
+
 	}
 	
 	h2
@@ -114,6 +116,20 @@
   	margin-right: 20px 
   }
 
+  .letra {
+  	font-style: italic;
+  	font-weight: 900
+  }
+
+  .cor {
+  	color: black;
+  	font-style: italic;
+  }
+
+  .bolinha {
+  	list-style-type: circle;
+  }
+
 	</style>
 
 	<link rel="stylesheet" type="text/css" href="../externo.css" />
@@ -137,7 +153,7 @@
 
     <div class="row">
 	<div class="col-12 c padding imagem img-responsive rounded">
-		<h1>Celia</h1>
+		<h1 class="letra">Celia</h1>
 	</div>
 </div>
 
@@ -152,8 +168,8 @@
 
 		<div class="col-6 col-md borda1">
             <h5>Serviços:</h5>
-            <ul class="list-unstyled text-small">
-            <li class="espaco">Serviço de café/buffet</li>
+            <ul class="bolinha text-small">
+            <li class="espaco cor">Serviço de café/buffet.</li>
 			
 			
             </ul>
@@ -161,24 +177,25 @@
 
 		
           <div class="col-6 col-md borda2">
-            <h5>Descrição Geral</h5>
-			<li class="espaco">Natureza: Privada</li>
+            <h5>Descrição Geral:</h5>
+            <ul class="bolinha text-small">
+			<li class="espaco cor">Natureza: Privada.</li>
             </ul>
           </div>
 
           <div class="col-6 col-md borda3">
-          	<h5>Localização</h5>
-          	<ul class="a" style="list-style-type:none">
-          		<li> Rua João Alexandre</li>
-          		<li>Número: 147</li>
-            	<li>Zona Urbana, Cep: 59194-000</li>
-            	<li>Bairro: Centro</li>
-            	<li>Cidade: Baia Formosa</li>
+          	<h5>Localização:</h5>
+          	<ul class="bolinha" ">
+          		<li class="cor"> Rua João Alexandre</li>
+          		<li class="cor">Número: 147</li>
+            	<li class="cor">Zona Urbana, Cep: 59194-000</li>
+            	<li class="cor">Bairro: Centro</li>
+            	<li class="cor">Cidade: Baia Formosa</li>
             </ul>
           </div>
 
          <div class="col-12 laranja e">
-         	<h4>Para mais informações:  Contato:    (84) 99137-4432 
+         	<h4 class="text-muted"> Para mais informações:  Contato: (84) 99137-4432 
 </h4>
          </div>
 
