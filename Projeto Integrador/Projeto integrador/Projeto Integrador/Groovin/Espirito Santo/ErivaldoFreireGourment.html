@@ -26,7 +26,9 @@
 	h5
 	{
   	text-align: center;
-  	color:black;
+  	color:#FE9A2E;
+  	font-family: "Georgia, serif"
+
 	}
 	
 	h2
@@ -68,6 +70,51 @@
 		margin-top: 130px
 	}
 
+	.imagem {
+		background-image: url(img/buffet.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+		height: 600px
+	}
+
+	.fonte {
+		font-style: italic;
+		font-weight: 900
+	}
+
+	.letra {
+		text-align: center;
+		font-style: italic;
+	}
+
+	.baixar {
+		margin-top: 40px
+	}
+
+	.y {
+		border-style: double;
+		margin-left: 20px;
+	}
+
+	.w {
+		border-style: double;
+
+	}
+
+	.z {
+		border-style: double;
+		margin-right: 20px 
+	}
+
+	.cor {
+		font-style: italic;
+		color: black;
+	}
+	
+	.m {
+		list-style-type: circle;
+	}
+
 	</style>
 
 	<link rel="stylesheet" type="text/css" href="../externo.css" />
@@ -89,50 +136,60 @@
   </div>
   </div>
       <div class="row">
-      	<div class="col-12 c padding">
-      		<h1> Erivaldo Freire Gourment </h1>
+      	<div class="col-12 c padding imagem img-responsive rounded">
+      		<h1 class="fonte"> Erivaldo Freire Gourment </h1>
       	</div>
 
       </div>
+
       <div class="row">
-      	<div class="col-6 col-md">
-            <h5>Serviços:</h5>
-            <ul class="list-unstyled text-small">
-            <li class="espaco"> Serviço de café/buffet. </li>
-			<li class="espaco"> </li>
-			<li class="espaco"> </li>
-			<li class="espaco"> </li>
-			<li class="espaco"> </li>
-            </ul>
-          </div>
-
-          <div class="col-6 col-md">
-            <h5>Descrição Geral: </h5>
-            <ul class="list-unstyled text-small">
-            <li class="espaco">Natureza: privada. </li>
-			<li class="espaco"> Serviço de buffet para todo tipo de evento. </li>
-			<li class="espaco">  </li>
-			<li class="espaco">  </li>
-            </ul>
-          </div>
-
-          <div class="col-6 col-md">
-          	<h5>Localização: </h5>
-          	<ul class="a" style="list-style-type:none">
-          		<li>Rua: Auto São José</li>
-            	<li>Número: 165. </li>
-            	<li>CEP:59180-000. </li>
-            	<li>Bairro: Centro</li>
-            	<li>Cidade: Espírito Santo</li>
-            </ul>
-          </div>
-
-          <div class="col-12 laranja e">
-         	<h4>Para mais informações:<a class="text-muted" href="#">  Contato: (84) 9 9130-6697 | E-mail: ygorgabrielfotografia@gmail.com
-	</a></h4>
-         </div>
+      	<div class="col-12 laranja e">
+      		<h3 class="letra"> Veja informações sobre Eviraldo Freire Gourment</h3>
+      	</div>
 
       </div>
+
+      <div class="row baixar">
+      	<div class="col-6 col-md y">
+            <h5>Serviços:</h5>
+            <ul class="m text-small">
+            <li class="espaco cor"> Serviço de café/buffet. </li>
+			<!-- <li class="espaco cor"> </li>
+			<li class="espaco cor"> </li>
+			<li class="espaco cor"> </li>
+			<li class="espaco cor"> </li> -->
+            </ul>
+          </div>
+
+          <div class="col-6 col-md w">
+            <h5>Descrição Geral: </h5>
+            <ul class="m text-small">
+            <li class="espaco cor">Natureza: privada. </li>
+			<li class="espaco cor"> Serviço de buffet para todo tipo de evento. </li>
+			<!-- <li class="espaco cor">  </li>
+			<li class="espaco cor">  </li> -->
+            </ul>
+          </div>
+
+          <div class="col-6 col-md z">
+          	<h5>Localização: </h5>
+          	<ul class="m" >
+          		<li class="cor">Rua: Auto São José</li>
+            	<li class="cor">Número: 165. </li>
+            	<li class="cor">CEP:59180-000. </li>
+            	<li class="cor">Bairro: Centro</li>
+            	<li class="cor">Cidade: Espírito Santo</li>
+            </ul>
+          </div>
+          </div>
+
+          <div class="row">
+          <div class="col-12 laranja e">
+         	<h4 class="text-muted">Para mais informações: Contato: (84) 9 9130-6697 | E-mail: <a class="text-muted" href="#">   ygorgabrielfotografia@gmail.com
+	</a></h4>
+         </div>
+         </div>
+      
 </div>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
