@@ -28,7 +28,9 @@
 	h5
 	{
   	text-align: center;
-  	color:black;
+  	color:#FE9A2E;
+  	font-family: "Georgia, serif"
+
 	}
 	
 	h2
@@ -77,13 +79,69 @@
     color: rgb(40,125,40)
   }
 
+  .imagem {
+  	background-image: url('img/celebrar.jpg');
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	height: 600px 
+  }
+
+  .descer {
+  	margin-top: 100px
+  } 
+
+  .frufru {
+  	font-style: italic;
+  	text-align: center;
+  }
+
+  .baixar {
+  	margin-top: 40px
+  }
+
+  .e {
+  	margin-top: 130px
+  }
+
+  .borda {
+  	border-style: double;
+  	margin-left: 20px
+
+  }
+
+  .borda1 {
+  	border-style: double;
+
+  }
+
+  .borda2 {
+  	border-style: double;
+  	margin-right: 20px
+
+  }
+
+  .estilo {
+  	font-style: italic;
+  	color: black;
+
+  }
+
+  .bolinha {
+  	list-style-type: circle;
+  }
+
+  .font {
+  	font-style: italic;
+  	font-weight: 900
+  }
+
 	</style>
 
 	<link rel="stylesheet" type="text/css" href="../externo.css" />
 </head>
 
 <body>
-	<div class="conteiner-fluid">
+	<div class="container-fluid">
 		<div class="row">
 	<div class="col-12 d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm laranja">
         <h3 class="my-0 mr-md-auto font-weight-normal">
@@ -100,48 +158,57 @@
     </div>
 
     <div class="row">
-	<div class="col-12 c padding">
-		<h1>Celebrar</h1>
+	<div class="col-12 c padding imagem img-responsive roudend">
+		<h1 class="font">Celebrar</h1>
 	</div>
 </div>
 
-
 	<div class="row">
+		<div class="col-12 laranja e descer">
+			<h3 class="frufru"> Veja informações sobre a Celebrar </h3>
+		</div>
+	</div>
 
-		<div class="col-6 col-md">
+
+	<div class="row baixar">
+
+		<div class="col-6 col-md borda">
             <h5>Serviços:</h5>
-            <ul class="list-unstyled text-small">
-            <li class="espaco">Cerimonial</li>
+            <ul class="bolinha text-small">
+            <li class="espaco estilo">Cerimonial.</li>
 			
 			
             </ul>
           </div>
 
 		
-          <div class="col-6 col-md">
-            <h5>Descrição Geral</h5>
-            <ul class="list-unstyled text-small">
-            <li class="espaco">Celebrar - Cerimonial e Eventos é uma empresa especializada em Planejamento, organização e realização de eventos.</li>
-			<li class="espaco">A empresa conta com profissionais com formação técnica na área de eventos.</li>
-			<li class="espaco">De acordo com a demanda. </li>
-			<li class="espaco">Horário de funcionamento:Pelas redes sociais.</li>
-			<li class="espaco">Natureza: Privada</li>
+          <div class="col-6 col-md borda1">
+            <h5>Descrição Geral: </h5>
+            <ul class="bolinha text-small">
+            <li class="espaco estilo">Celebrar - Cerimonial e Eventos é uma empresa especializada em Planejamento, organização e realização de eventos.</li>
+			<li class="espaco estilo">A empresa conta com profissionais com formação técnica na área de eventos.</li>
+			<li class="espaco estilo">Capacidade de atendimento: De acordo com a demanda. </li>
+			<li class="espaco estilo">Horário de funcionamento: Pelas redes sociais.</li>
+			<li class="espaco estilo">Natureza: Privada.</li>
             </ul>
           </div>
 
-          <div class="col-6 col-md">
-          	<h5>Localização</h5>
-          	<ul class="a" style="list-style-type:none">
-          		<li> Rua João Alexandre</li>
-          		<li>Número: 147</li>
-            	<li>Zona Urbana, Cep: 59194-000</li>
-            	<li>Bairro: Centro</li>
-            	<li>Cidade: Baia Formosa</li>
+          <div class="col-6 col-md borda2">
+          	<h5>Localização: </h5>
+          	<ul class="bolinha" ">
+          		<li class="estilo"> Rua João Alexandre</li>
+          		<li class="estilo">Número: 147</li>
+            	<li class="estilo">Zona Urbana, Cep: 59194-000</li>
+            	<li class="estilo">Bairro: Centro</li>
+            	<li class="estilo">Cidade: Baia Formosa</li>
             </ul>
           </div>
+          </div>
 
-         <div class="col-12 laranja">
-         	<h4>Para mais informações:  Contato:    (84) 99117-3156 | Instagram:   @celebrar_ce |Facebook:  Celebrar Cerimonial e Eventos | Email:  celebrarce@gmail.com 
+          <div class="row">
+         <div class="col-12 laranja e">
+         	<h4 class="text-muted">Para mais informações:  Contato:    (84) 99117-3156 | Instagram:   @celebrar_ce |Facebook:  <a class="text-muted" 
+         		href="https://www.facebook.com/Celebrar-Cerimonial-e-Eventos-614744052024865/"> Celebrar Cerimonial e Eventos </a> | Email:  celebrarce@gmail.com 
 
 </h4>
          </div>
