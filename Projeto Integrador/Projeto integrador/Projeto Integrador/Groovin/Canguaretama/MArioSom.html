@@ -26,6 +26,8 @@
   h5
   {
   	text-align: center;
+    color: #FE9A2E;
+    font-family: "Georgia, serif"
   }
 
   .class li{
@@ -77,13 +79,60 @@ body
     color: rgb(40,125,40)
   }
 
+  .fonte {
+    text-align: center;
+    font-style: italic;
+  }
+
+  .baixar {
+    margin-top: 100px
+  }
+
+  .baixar2 {
+    margin-top: 40px
+  }
+
+  .descer {
+    margin-top: 130px
+  }
+
+  .borda {
+    border-style: double;
+    margin-left: 20px 
+  }
+
+  .borda2 {
+    border-style: double;
+  }
+
+  .borda3 {
+    border-style: double;
+    margin-right: 20px 
+  }
+
+  .cor {
+    font-style: italic;
+    color: black;
+  }
+
+  .ponto {
+    list-style-type: circle;
+  }
+
+  .css {
+    font-style: italic;
+    font-weight: 900
+  }
+
 	</style>
 
 </head>
 
 <body>
 
-	 <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm laranja">
+    <div class="container-fluid">
+      <div class="row">
+	 <div class=" col-12 d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm laranja">
       <h3 class="my-0 mr-md-auto font-weight-normal">
         <a href="../index.html">
       <img src="../gps.png" width="100px" height="100px"></a>
@@ -94,10 +143,11 @@ body
         <a class="p-2 ax " href="../Produtos/Produtos.html">Produto</a>
       </nav>
     </div>
-
+    </div>
+    
     <div class="row">
 	<div class="col-12 c padding">
-		<h1>Mario Som</h1>
+		<h1 class="css"> Mario Som</h1>
 	</div>
 </div>
 <div class="row">
@@ -105,45 +155,53 @@ body
     </div>
     <div class="col-xl 3 col-lg 3 col-md 12 col-sm 12 margem2"><img src="img/img8.jpg" class="img-fluid rounded a" height="450px" width="450px"> 
     </div>
-    <div class="col-xl 3 col-lg 3 col-md 12 col-sm 12 margem2"><img src="img/img9.jpg" class="img-fluid rounded a" height="300px" width="300px"> 
+    <div class="col-xl 3 col-lg 3 col-md 12 col-sm 12 margem2"><img src="img/mario.jpg" class="img-fluid rounded a" height="400px" width="400px"> 
     </div>
 </div>
-	<div class="row">
-  <div class="col-6 col-md">
+
+  <div class="row">
+    <div class="col-12 laranja baixar">
+      <h3 class="fonte"> Veja informações sobre Mario Som</h3>
+    </div> 
+  </div>
+	
+    <div class="row baixar2">
+  <div class="col-6 col-md borda">
     <h5>Serviços:</h5>
-        <ul class="list-unstyled text-small separar">
-        <li>Locação de sonorização/iluminação/telões/projetor multimídia</li>
-        <li>Locação e montagem de palcos/tendas/ estandes</li>
+        <ul class="ponto text-small separar">
+        <li class="cor">Locação de sonorização/iluminação/telões/projetor multimídia.</li>
+        <li class="cor">Locação e montagem de palcos/tendas/ estandes.</li>
         </ul>
   </div>
 
-  <div class="col-6 col-md">
-    <h5>Descrição Geral</h5>
-        <ul class="list-unstyled text-small">
-        <li>Serviços de sonorização, iluminação e tendas </li>
-        <li>Horário de Funcionamento: Pelas redes sociais</li>
-        <li>Natureza: Privado</li>
+  <div class="col-6 col-md borda2">
+    <h5>Descrição Geral:</h5>
+        <ul class="ponto text-small">
+        <li class="cor">Serviços de sonorização, iluminação e tendas. </li>
+        <li class="cor">Horário de Funcionamento: Pelas redes sociais.</li>
+        <li class="cor">Natureza: Privado.</li>
         </ul>
   </div>
 
-  <div class="col-6 col-md class">
-    <h5>Localização</h5>
-        <ul class="list-unstyled text-small">
-        <li>Av. João Gomes de Torres</li>
-        <li>CEP:59190-000</li>
-        <li>Bairro: Sertãozinho</li>
-        <li>Cidade: Canguaretama</li>
+  <div class="col-6 col-md borda3">
+    <h5>Localização:</h5>
+        <ul class="ponto text-small">
+        <li class="cor">Av. João Gomes de Torres.</li>
+        <li class="cor">CEP:59190-000.</li>
+        <li class="cor">Bairro: Sertãozinho.</li>
+        <li class="cor">Cidade: Canguaretama.</li>
         </ul>
   </div>
-
-         <div class="col-12 laranja">
-         	<h4>Para mais informações: Contato: (84) 9 8121-9070 | Facebbok: Mario Som | WhatsApp: (84) 9 8121-9070 <h4>
+  </div>
+         
+        <div class="row">
+         <div class="col-12 laranja descer">
+         	<h4 class="text-muted">Para mais informações: Contato: (84) 9 8121-9070 | Facebbok: <a class="text-muted" href="https://www.facebook.com/mario.som.75"> Mario Som </a> | WhatsApp: (84) 9 8121-9070 <h4>
          </div>
-  
+    </div>
 </div>
 
-   </div>
-</div>
+   
 
  	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
