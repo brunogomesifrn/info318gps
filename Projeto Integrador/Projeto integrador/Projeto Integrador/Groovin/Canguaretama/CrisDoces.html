@@ -26,7 +26,8 @@
 	h5
 	{
   	text-align: center;
-  	color:black;
+  	color:#FE9A2E;
+    font-family: "Georgia, serif"
 	}
 	
 	h2
@@ -86,13 +87,62 @@
     color: rgb(40,125,40)
   }
 
-	</style>
+  .ap {
+    margin-bottom: 50px
+  }
+
+  .baixar {
+    margin-top: 100px
+  }
+
+  .letra {
+    font-style: italic;
+    font-weight: 900
+  }
+
+  .fonte {
+    text-align: center;
+    font-style: italic;
+  }
+
+  .baixar2 {
+    margin-top: 40px
+
+  }
+
+  .borda {
+    border-style: double;
+    margin-left:  20px
+  }
+
+  .borda2 {
+    border-style: double;
+  }
+
+  .borda3 {
+    border-style: double;
+    margin-right: 20px
+
+  }
+
+  .cor {
+    color: black;
+    font-style: italic;
+  }
+
+  .b {
+    list-style-type: circle;
+  }
+	
+  </style>
 
 	<link rel="stylesheet" type="text/css" href="../externo.css" />
 
 </head>
 <body>
-	<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm laranja">
+    <div class="container-fluid">
+      <div class="row">
+	<div class="col-12 d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm laranja">
 		<h3 class="my-0 mr-md-auto font-weight-normal">
 			<a href="../index.html">
 			<img src="../gps.png" width="100px" height="100px"></a>
@@ -104,14 +154,15 @@
         <a class="p-2 ax " href="../Produtos/Produtos.html">Menu</a>
       </nav>
   </div>
+  </div>
       <div class="row">
       	<div class="col-12 c padding">
-      		<h1> Cris Doces </h1>
+      		<h1 class="letra"> Cris Doces </h1>
       	</div>
 
       </div>
       
-<div class="row">
+<div class="row ap">
     <div class="col-xl 3 col-lg 3 col-md 12 col-sm 12 margem2 bb"><img src="img/c2.jpg" class="img-fluid rounded a" height="400px" width="400px">
     </div>
     <div class="col-xl 3 col-lg 3 col-md 12 col-sm 12 margem2"><img src="img/c1.jpg" class="img-fluid rounded a" height="340px" width="340px"> 
@@ -175,42 +226,53 @@
     <div class="col-xl 3 col-lg 3 col-md 12 col-sm 12 margem2"><img src="img/c24.jpg" class="img-fluid rounded a" height="400px" width="400px"> 
     </div> 
 </div>
-      <div class="row">
-      	<div class="col-6 col-md">
+
+    <div class="row">
+      <div class="col-12 laranja baixar">
+        <h3 class="fonte"> Veja informações sobre Cris Doces</h3>
+      </div>
+    </div>
+
+      <div class="row baixar 2">
+      	<div class="col-6 col-md borda">
             <h5>Serviços:</h5>
-            <ul class="list-unstyled text-small">
-            <li class="espaco">Serviço de buffet. </li>
+            <ul class="b text-small">
+            <li class="espaco cor">Serviço de buffet. </li>
             </ul>
           </div>
 
-          <div class="col-6 col-md">
+          <div class="col-6 col-md borda2">
             <h5>Descrição Geral: </h5>
-            <ul class="list-unstyled text-small">
-            <li class="espaco">Natureza: Privada</li>
-			<li class="espaco"> A Cris Doces oferta serviços de buffet, </li>
-			<li class="espaco"> brigadeiro, brigadeiro gourmet, bolos, </li>
-			<li class="espaco"> tortas em geral e doces finos.</li>
-			<li class="espaco"> Pagamento Parcelado. </li>
-			<li class="espaco"> Atendimento Qualificado e Personalizado. </li>
+            <ul class="b text-small">
+            <li class="espaco cor">Natureza: Privada.</li>
+			<li class="espaco cor"> A Cris Doces oferta serviços de: buffet, </li>
+			<li class="espaco cor"> brigadeiro, brigadeiro gourmet, bolos, </li>
+			<li class="espaco cor"> tortas em geral e doces finos.</li>
+			<li class="espaco cor"> Pagamento Parcelado. </li>
+			<li class="espaco cor"> Atendimento Qualificado e Personalizado. </li>
             </ul>
           </div>
 
-          <div class="col-6 col-md">
+          <div class="col-6 col-md borda3">
           	<h5>Localização: </h5>
-          	<ul class="a" style="list-style-type:none">
-          		<li>Rua: José Carlos</li>
-            	<li>Número: 81</li>
-            	<li>Ponto de referência: Esquina com beco da piscina, CEP:59190-000</li>
-            	<li>Bairro: Piquiri</li>
-            	<li>Cidade: Canguaretama</li>
+          	<ul class="b" >
+          		<li class="cor">Rua: José Carlos</li>
+            	<li class="cor">Número: 81</li>
+            	<li class="cor">Ponto de referência: </li> 
+              <li class="cor"> Esquina com beco da piscina </li>
+              <li class="cor">CEP:59190-000</li>
+            	<li class="cor">Bairro: Piquiri</li>
+            	<li class="cor">Cidade: Canguaretama</li>
             </ul>
           </div>
+          </div>
 
+          <div class="row">
           <div class="col-12 laranja e">
-         	<h4>Para mais informações: Contatos: (84) 98739-3923, (84) 98104-4211 |  CNPJ: 058.997.354-14 | Instagram: @cristiana8400 | Facebook: Cristiana Bezerra
+         	<h4 class="text-muted">Para mais informações: Contatos: (84) 98739-3923, (84) 98104-4211 |  CNPJ: 058.997.354-14 | Instagram: @cristiana8400 | Facebook: <a class="text-muted" href="https://www.facebook.com/cristiana.bezerra.16"> Cristiana Bezerra </a>
 </h4>
          </div>
-
+         </div>
 
 
       </div>
