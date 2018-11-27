@@ -11,7 +11,61 @@
 	<meta charset="utf-8">
   
 <style type="text/css">
+	
+	.bl {
+		border-style: double;
+		margin-left: 50px
+	}
+
+	.bc {
+		border-style: double;
+	}
+
+	.br {
+		border-style: double;
+		margin-right: 20px
+	}
+	.aff {
+		font-weight: 900;
+		font-style: italic;
+	}
+	.fundo{
+	background-image: url('img/funeraria 2.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 600px
+	}
+	.meio {
+	text-align: center;
+	}
+	.ax {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: white
+	}
+
+  a:hover {
+    text-decoration: none;
+    color: rgb(40,125,40)
+  	}
+	.sobepeste {
+	margin-bottom: -80px		
+	}
+	.fonte {
+	font-style: italic;
+	}
+	.circulo {
+	list-style-type: circle;
+	}
 		
+	h5
+	{
+  	text-align: center;
+  	color:#FE9A2E;
+  	font-family: "Georgia, serif";
+	}
+	
   h1,p
   {
   	text-align: center;
@@ -22,12 +76,6 @@
   {
   	text-align: center;
   	color: white;
-  }
-
-  h5
-  {
-  	text-align: center;
-  	color:black;
   }
 
   h2
@@ -41,7 +89,7 @@
     -moz-background-size: 100% 100%;
     -webkit-background-size: 100% 100%;
     background-size: 100% 100%;
-    height: 300px;
+    height: 600px;
   }
 
   .margin
@@ -95,8 +143,9 @@
 </head>
 
 <body>
-
-	<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 laranja border-bottom shadow-sm">
+	<div class="container-fluid">
+	<div class="row">
+	<div class="d-flex flex-column col-xg-12 col-lg-12 flex-md-row align-items-center p-3 px-md-4 mb-3 laranja border-bottom shadow-sm">
     <h3 class="my-0 mr-md-auto font-weight-normal">
       <img src="../gps.png" width="100px" height="100px">
     </h3>
@@ -106,47 +155,52 @@
         <a class="p-2 ax" href="../Produtos/Produtos.html">Produtos</a>
       </nav>
     </div>
-
-    <div class="row">
-      <div class="col-12 c padding">
-          <h1>Funerária, Floricultura São José</h1>
-          <img class="b" src="img/funeraria 2.jpg" height="350" width="500">
-          <img class="b" src="img/funeraria.jpg" height="350" width="500">
-          <img class="b" src="img/funeraria 3.jpg" height="350" width="500">
-        </div>
-      </div>
     </div>
 
     <div class="row">
-		  <div class="col-6 col-md-4 servicos">
+      <div class="col-12 c fundo padding">
+          <h1 class="aff">Funerária, Floricultura São José</h1>
+        </div>
+      </div>
+									<br/><br/>
+	<div class="row sobepeste">
+		<div class="col-12 laranja">
+			<h3 class="fonte meio"> Veja informações sobre Funerária - Floricultura São José </h3>
+		</div>
+	</div>
+    <div class="row">
+		  <div class="col-6 col-md-4 bl col-lg-3 servicos">
         <h5>Serviços</h5>
-          <ul class="list-unstyled text-small">
-            <li class="espaco">Funerária, Floricultura e plano funerário</li>
+          <ul class="circulo text-small">
+            <li class="fonte">Funerária, Floricultura e plano funerário</li>
           </ul>
       </div>
 
-      <div class="col-6 col-md-4 dg">
+      <div class="col-6 col-md-4 bc col-lg-5 dg">
         <h5>Descrição Geral</h5>
-          <ul class="list-unstyled text-small">
-            <li class="espaco">Rua pavimentada de fácil acesso</li>
-            <li class="espaco">CNPJ: 26146452000/70</li>
-            <li class="espaco">Naturaza: Privado</li>
-            <li class="espaco">Horários Comercial - Segunda à Sábado</li>
+          <ul class="circulo text-small">
+            <li class="fonte">Rua pavimentada de fácil acesso</li>
+            <li class="fonte">CNPJ: 26146452000/70</li>
+            <li class="fonte">Naturaza: Privado</li>
+            <li class="fonte">Horários Comercial - Segunda à Sábado</li>
           </ul>
       </div>
 
-      <div class="col-6 col-md-4 localizacao">
+      <div class="col-6 col-md-4 br col-lg-3 localizacao">
        	<h5>Localização</h5>
-        	<ul class="a" style="list-style-type:none">
-         		<li> Rua 12 de Outubro</li>
-            <li>Centro-Pedro Velho/RN</li>
-          	<li>S/N</li>
-           	<li>CEP: 59196-000</li>
+        	<ul class="circulo">
+         	<li class="fonte"> Rua 12 de Outubro</li>
+            <li class="fonte">Centro-Pedro Velho/RN</li>
+          	<li class="fonte">S/N</li>
+           	<li class="fonte">CEP: 59196-000</li>
           </ul>
       </div>
-
+      </div>
+							<br/><br/>
+		<div class="row">
       <div class="col-12 laranja">
-       	<h4>Para mais informações: Contato: (84) 3247-2398 | E-mail: arlindogouveia.neto@gmail.com </h4>
+       	<h4 class="text-muted">Para mais informações: Contato: (84) 3247-2398 | E-mail: arlindogouveia.neto@gmail.com </h4>
+      </div>
       </div>
 </div>
 
