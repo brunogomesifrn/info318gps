@@ -12,7 +12,53 @@
 
 
 	<style type="text/css">
+	.bl {
+		border-style: double;
+		margin-left: 50px
+	}
 
+	.bc {
+		border-style: double;
+	}
+
+	.br {
+		border-style: double;
+		margin-right: 20px
+	}
+	.aff {
+		font-weight: 900;
+		font-style: italic;
+	}
+	.fundo{
+	background-image: url(img/decocasa.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 500px
+	}
+	.meio {
+	text-align: center;
+	}
+	.ax {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: white
+	}
+
+  a:hover {
+    text-decoration: none;
+    color: rgb(40,125,40)
+  	}
+	.sobepeste {
+	margin-bottom: -80px		
+	}
+	.fonte {
+	text-align: center;
+	font-style: italic;
+	}
+	.circulo {
+	list-style-type: circle;
+	}
 		
 	h1,p
 	{
@@ -94,56 +140,63 @@
 </head>
 
 <body>
-
-	<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm laranja">
+	<div class="container-fluid">
+	<div class="row">
+	<div class="d-flex flex-column col-xg-12 col-lg-12 flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm laranja">
       <h3 class="my-0 mr-md-auto font-weight-normal">
 		<img src="../gps.png" width="100px" height="100px">
       </h3>
       <nav class="my-2 my-md-0 mr-md-3">
-        <a class="p-2 text-dark" href="#">Cidade</a>
-        <a class="p-2 text-dark" href="#">Serviço</a>
-        <a class="p-2 text-dark" href="#">Menu</a>
+        <a class="p-2 ax" href="#">Cidade</a>
+        <a class="p-2 ax" href="#">Serviço</a>
+        <a class="p-2 ax" href="#">Menu</a>
       </nav>
     </div>
-
+	</div>
     <div class="row">
-	<div class="col-12 c padding">
-		<h1>JL <br/> Decorações</h1>
+	<div class="col-12 c fundo padding">
+		<h1>JL Decorações</h1>
 	</div>
 	</div>
-
+						<br/>
 	<div class="row">
-
-		<div class="col-6 col-md-4 servicos">
+		<div class="col-12 laranja">
+			<h3 class="fonte meio"> Veja informações sobre JL decorações </h3>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-6 col-lg-3 col-md-4 bl servicos">
             <h5>Serviços:</h5>
-            <ul class="list-unstyled text-small">
-            <li class="espaco"> Decoração. </li>
+            <ul class="circulo text-small">
+            <li class="fonte"> Decoração. </li>
             </ul>
           </div>
 
 		
-          <div class="col-6 col-md-4 dg">
+          <div class="col-6 bc col-lg-5 col-md-4 dg">
             <h5>Descrição Geral</h5>
-            <ul class="list-unstyled text-small">
-            <li class="espaco">Decoração para aniversários infantis, casamento, debutantes e demais eventos. Especializado em aniversários infantis e debutantes. </li>
+            <ul class="circulo text-small">
+            <li class="fonte">Decoração para aniversários infantis, casamento, debutantes e demais eventos. Especializado em aniversários infantis e debutantes. </li>
             </ul>
           </div>
 
-          <div class="col-6 col-md-4 localizacao">
+          <div class="col-6 col-md-4 col-lg-3 br localizacao">
           	<h5>Localização</h5>
-          	<ul class="a" style="list-style-type:none">
-          		<li>Centro</li>
-            	<li>Número: 41</li>
-            	<li>CEP: 59198-000</li>
-            	<li>Rua São José</li>
-            	<li>Cidade: Montanhas</li>
+          	<ul class="a circulo">
+          		<li class="fonte">Centro</li>
+            	<li class="fonte">Número: 41</li>
+            	<li class="fonte">CEP: 59198-000</li>
+            	<li class="fonte">Rua São José</li>
+            	<li class="fonte">Cidade: Montanhas</li>
             </ul>
           </div>
-
+		</div>
+						<br/><br/>
+		<div class="row">
          <div class="col-12 laranja">
-         	<h4>Para mais informações: Contatos: (84) 98754-2060 & (84) 98797-3705 | Instagram: @igsomeluz | Facebook: https://www.facebook.com/profile.php?id=100011428912944&hc_ref=ARRPoo7KS0xvpRZXvce8SBLxDEARkrbpxSIpPYpw5SafB7Z1Bk7wEtRvppuY7MOH6K0 </h4>
+         	<h4 class="text-muted">Para mais informações: Contatos: (84) 98754-2060 & (84) 98797-3705 | Instagram: @igsomeluz | Facebook: <a class="text-muted" href="https://www.facebook.com/profile.php?id=100011428912944&hc_ref=ARRPoo7KS0xvpRZXvce8SBLxDEARkrbpxSIpPYpw5SafB7Z1Bk7wEtRvppuY7MOH6K0">Jl Decora JL</a> </h4>
          </div>
-
+		 </div>
 	</div>
 
  	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
