@@ -11,7 +11,61 @@
 	<meta charset="utf-8">
 
 	<style type="text/css">
+	
+	.bl {
+		border-style: double;
+		margin-left: 50px
+	}
+
+	.bc {
+		border-style: double;
+	}
+
+	.br {
+		border-style: double;
+		margin-right: 20px
+	}
+	.aff {
+		font-weight: 900;
+		font-style: italic;
+	}
+	.fundo{
+	background-image: url(img/IR3.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 600px
+	}
+	.meio {
+	text-align: center;
+	}
+	.ax {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: white
+	}
+
+  a:hover {
+    text-decoration: none;
+    color: rgb(40,125,40)
+  	}
+	.sobepeste {
+	margin-bottom: -80px		
+	}
+	.fonte {
+	font-style: italic;
+	}
+	.circulo {
+	list-style-type: circle;
+	}
 		
+	h5
+	{
+  	text-align: center;
+  	color:#FE9A2E;
+  	font-family: "Georgia, serif";
+	}
+	
   h1,p
   {
   	text-align: center;
@@ -22,12 +76,6 @@
   {
   	text-align: center;
   	color: white;
-  }
-
-  h5
-  {
-  	text-align: center;
-  	color:black;
   }
 
   h2
@@ -42,7 +90,7 @@
 	-moz-background-size: 100% 100%;
 	-webkit-background-size: 100% 100%;
 	background-size: 100% 100%;
-	height: 300px;
+	height: 600px;
   }
 
   .margin
@@ -95,8 +143,9 @@
 </head>
 
 <body>
-
-	<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 laranja border-bottom shadow-sm">
+	<div class="container-fluid">
+	<div class="row">
+	<div class="d-flex flex-column col-xg-12 col-lg-12 flex-md-row align-items-center p-3 px-md-4 mb-3 laranja border-bottom shadow-sm">
       <h3 class="my-0 mr-md-auto font-weight-normal">
         <a href="../index.html">
           <img src="../gps.png" width="100px" height="100px"></a>
@@ -107,51 +156,55 @@
         	<a class="p-2 ax" href="../Produtos/Produtos.html">Produtos</a>
       	</nav>
     </div>
+    </div>
 
     <div class="row">
-		<div class="col-12 c padding">
-			<h1>IR Som</h1>
-      <img class="b" src="img/IR2.jpg" height="350" width="500">
-      <img class="b" src="img/IR.jpg" height="350" width="500">
-      <img class="b" src="img/IR3.jpg" height="350" width="500">
+		<div class="col-12 c fundo padding">
+			<h1 class="aff">IR Som</h1>
+	</div>
+	</div>
+									<br/><br/>
+	<div class="row sobepeste">
+		<div class="col-12 laranja">
+			<h3 class="fonte meio"> Veja informações sobre Máx Nóbrega - Design e Fotografia </h3>
 		</div>
 	</div>
-
 	<div class="row">
-		<div class="col-6 col-md-4 servicos">
+		<div class="col-6 col-md-4 bl col-lg-3 servicos">
             <h5>Serviços</h5>
-            <ul class="list-unstyled text-small">
-              <li class="espaco">Sonorização e iluminação para eventos</li>
-              <li class="espaco">Locação de sonorização/iluminação/telões/projetor multimídia.</li>
+            <ul class="circulo text-small">
+              <li class="fonte">Sonorização e iluminação para eventos</li>
+              <li class="fonte">Locação de sonorização/iluminação/telões/projetor multimídia.</li>
             </ul>
           </div>
 
-          <div class="col-6 col-md-4 dg">
+          <div class="col-6 bc col-lg-5 col-md-4 dg">
             <h5>Descrição Geral</h5>
-            <ul class="list-unstyled text-small">
-            <li class="espaco">Pelas redes sociais e pessoalmente.</li>
-            <li class="espaco">Um evento de grande porte e um de pequeno porte por dia.</li>
-             <li class="espaco">Naturaza: Privado</li>
+            <ul class="circulo text-small">
+            <li class="fonte">Pelas redes sociais e pessoalmente.</li>
+            <li class="fonte">Um evento de grande porte e um de pequeno porte por dia.</li>
+            <li class="fonte">Naturaza: Privado</li>
             </ul>
           </div>
 
-          <div class="col-6 col-md-4 localizacao">
+          <div class="col-6 br col-lg-3 col-md-4 localizacao">
           	<h5>Localização</h5>
-          	<ul class="a" style="list-style-type: none">
-          		<li>Sítio Pernambuquinho</li>
-              <li>Zona Rural-Tibau do Sul/RN</li>
-            	<li>S/N</li>
-            	<li>CEP: 59178-000</li>
+          	<ul class="circulo">
+          		<li class="fonte">Sítio Pernambuquinho</li>
+              	<li class="fonte">Zona Rural-Tibau do Sul/RN</li>
+            	<li class="fonte">S/N</li>
+            	<li class="fonte">CEP: 59178-000</li>
             </ul>
           </div>
-
+          </div>
+										<br/><br/>
+		<div class="row">
          <div class="col-12 laranja">
-         	<h4>Para mais informações: Contato: (84) 99645-6917 | E-mail: robinhogalvao2017@gmail.com</h4>
+         	<h4 class="text-muted">Para mais informações: Contato: (84) 99645-6917 | E-mail: robinhogalvao2017@gmail.com</h4>
          </div>  
 </div>
-
    </div>
-</div>
+
 
  	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
