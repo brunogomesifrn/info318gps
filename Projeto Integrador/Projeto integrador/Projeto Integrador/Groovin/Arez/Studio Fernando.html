@@ -13,7 +13,61 @@
 	<meta charset="utf-8">
 
 	<style type="text/css">
+	
+	.bl {
+		border-style: double;
+		margin-left: 50px
+	}
+
+	.bc {
+		border-style: double;
+	}
+
+	.br {
+		border-style: double;
+		margin-right: 20px
+	}
+	.aff {
+		font-weight: 900;
+		font-style: italic;
+	}
+	.fundo{
+	background-image: url('img/sfm.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 600px
+	}
+	.meio {
+	text-align: center;
+	}
+	.ax {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: white
+	}
+
+  a:hover {
+    text-decoration: none;
+    color: rgb(40,125,40)
+  	}
+	.sobepeste {
+	margin-bottom: -50px		
+	}
+	.fonte {
+	font-style: italic;
+	}
+	.circulo {
+	list-style-type: circle;
+	}
 		
+	h5
+	{
+  	text-align: center;
+  	color:#FE9A2E;
+  	font-family: "Georgia, serif";
+	}
+	
   h1{
   	text-align: center;
   }
@@ -34,12 +88,10 @@
 
 
   	.padding{
-background-image: url();
 background-repeat: no-repeat;
 -moz-background-size: 100% 100%;
 -webkit-background-size: 100% 100%;
 background-size: 100% 100%;
-
 height: 600px;
 }
 
@@ -70,8 +122,9 @@ height: 600px;
 </head>
 
 <body>
-
-	<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm laranja">
+	<div class="container-fluid">
+	<div class="row">
+	<div class="d-flex flex-column col-xg-12 col-lg-12 flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm laranja">
       <h3 class="my-0 mr-md-auto font-weight-normal">
         <a href="../index.html">
       <img src="../gps.png" width="100px" height="100px"></a>
@@ -82,50 +135,59 @@ height: 600px;
         <a class="p-2 ax" href="../Produtos/Produtos.html">Produto</a>
       </nav>
     </div>
+    </div>
 
     <div class="row">
-	<div class="col-12 c padding">
-		<h1>Studio Fernando Mix</h1>
+	<div class="col-12 c fundo padding">
+		<h1 class="aff">Studio Fernando Mix</h1>
 	</div>
 </div>
-
+									<br/><br/>
 	<div class="row">
-  <div class="col-6 col-md separar">
+		<div class="col-12 laranja">
+			<h3 class="fonte meio"> Veja informações sobre Studio Fernando Mix </h3>
+		</div>
+	</div>
+								<br/><br/>
+	<div class="row">
+  <div class="col-6 col-md bl col-lg-3 separar">
     <h5>Serviços:</h5>
-        <ul class="list-unstyled text-small">
-        <li><a class="text-muted" href="#">Filmagem/ Fotografia</a></li>
+        <ul class="circulo text-small">
+        <li class="fonte">Filmagem/ Fotografia</li>
         </ul>
   </div>
-                      - 
-  <div class="col-6 col-md">
+                       
+  <div class="col-6 bc col-lg-4 col-md">
     <h5>Descrição Geral</h5>
-        <ul class="list-unstyled text-small">
-        <li><a class="text-muted" href="#">Atua como Designer e Fotógrafo</a></li>
-        <li><a class="text-muted" href="#">Horário de Funcionamento:  Pelas redes sociais</a></li>
-        <li><a class="text-muted" href="#">Diferenciais: Profissional versátil, jovem, rápido e apaixonado </a></li>
-        <li><a class="text-muted" href="#">Natureza: Privado</a></li>
+        <ul class="circulo text-small">
+        <li class="fonte">Atua como Designer e Fotógrafo</li>
+        <li class="fonte">Horário de Funcionamento:  Pelas redes sociais</li>
+        <li class="fonte">Diferenciais: Profissional versátil, jovem, rápido e apaixonado </li>
+        <li class="fonte">Natureza: Privado</li>
         </ul>
   </div>
 
-  <div class="col-6 col-md class">
+  <div class="col-6 br col-lg-4 col-md class">
     <h5>Localização</h5>
-        <ul class="list-unstyled text-small">
-        <li><a class="text-muted" href="#">Rua Milton Ferreira da Silva</a></li>
-        <li><a class="text-muted" href="#">Número: 10º</a></li>
-        <li><a class="text-muted" href="#">CEP:59170-000</a></li>
-        <li><a class="text-muted" href="#">Bairro: Centro</a></li>
-        <li><a class="text-muted" href="#">Cidade: Arez</a></li>
+        <ul class="circulo text-small">
+        <li class="fonte">Rua Milton Ferreira da Silva</li>
+        <li class="fonte">Número: 10º</li>
+        <li class="fonte">CEP:59170-000</li>
+        <li class="fonte">Bairro: Centro</li>
+        <li class="fonte">Cidade: Arez</li>
         </ul>
   </div>
-
+  </div>
+							<br/><br/><br/>
+		<div class="row">
          <div class="col-12 laranja">
-         	<h4>Para mais informações: Contato 1: (84) 9 8118-0089  | Contato 2: 84) 9 9699-7897 | Instagram: @studiofernandomix | Facebbok: Studio Fernando Mix | Email:  mixdesignx7@gmail.com  | Site: http://fernandomixdesigner.com.br/ <h4>
+         	<h4 class="text-muted">Para mais informações: Contato 1: (84) 9 8118-0089  | Contato 2: 84) 9 9699-7897 | Instagram: @studiofernandomix | Facebook: Studio Fernando Mix | Email:  mixdesignx7@gmail.com  | Site: <a href="http://fernandomixdesigner.com.br/" class="text-muted">www.fernandomixdesigner.com.br/</a> </h4>
          </div>
   
 </div>
 
    </div>
-</div>
+
 
  	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
