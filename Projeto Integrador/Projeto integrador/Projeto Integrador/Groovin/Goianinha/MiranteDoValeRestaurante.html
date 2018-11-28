@@ -11,7 +11,61 @@
 	<meta charset="utf-8">
 
 	<style type="text/css">
+	
+	.bl {
+		border-style: double;
+		margin-left: 50px
+	}
+
+	.bc {
+		border-style: double;
+	}
+
+	.br {
+		border-style: double;
+		margin-right: 20px
+	}
+	.aff {
+		font-weight: 900;
+		font-style: italic;
+	}
+	.fundo{
+	background-image: url('img/22.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 600px
+	}
+	.meio {
+	text-align: center;
+	}
+	.ax {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: white
+	}
+
+  a:hover {
+    text-decoration: none;
+    color: rgb(40,125,40)
+  	}
+	.sobepeste {
+	margin-bottom: -50px		
+	}
+	.fonte {
+	font-style: italic;
+	}
+	.circulo {
+	list-style-type: circle;
+	}
 		
+	h5
+	{
+  	text-align: center;
+  	color:#FE9A2E;
+  	font-family: "Georgia, serif";
+	}
+	
 	h1
 	{
   	text-align: center;
@@ -24,12 +78,6 @@
   	color: white;
 	}
 	
-	h5
-	{
-  	text-align: center;
-  	color:black;
-	}
-	
 	h2
 	{
     text-align: center;
@@ -38,13 +86,12 @@
 
 	.padding
 	{
-	background-image: url(.jpg);
 	background-repeat: no-repeat;
 	-moz-background-size: 100% 100%;
 	-webkit-background-size: 100% 100%;
 	background-size: 100% 100%;
 
-	height: 100px;
+	height: 600px;
 
 	
 	}
@@ -93,7 +140,7 @@
 <body>
 <div class="containe-fluid">
 	<div class="row">
-	<div class=" col-12 d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3  border-bottom shadow-sm laranja">
+	<div class=" col-12 d-flex flex-column col-xg-12 col-lg-12 flex-md-row align-items-center p-3 px-md-4 mb-3  border-bottom shadow-sm laranja">
             <h3 class="my-0 mr-md-auto font-weight-normal">
             	<a href="../index.html">
 		<img src="../gps.png" width="100px" height="100px"></a>
@@ -108,85 +155,64 @@
 </div>
     <div class="row">
 
-	<div class="col-12 c padding">
-		<h1> Mirante do Vale Restaurante </h1>
+	<div class="col-12 c fundo padding">
+		<h1 class="aff"> Mirante do Vale Restaurante </h1>
 		
 	</div>
 </div>
-
-
-<div class="row">
-    <div class="col-xl 3 col-lg 3 col-md 12 col-sm 12 margem2 bb"><img src="img/11.jpg" class="img-fluid rounded a" height="450px" width="450px">
-    </div>
-    <div class="col-xl 3 col-lg 3 col-md 12 col-sm 12 margem2"><img src="img/22.jpg" class="img-fluid rounded a" height="450px" width="450px"> 
-    </div>
-    <div class="col-xl 3 col-lg 3 col-md 12 col-sm 12 margem2"><img src="img/33.jpg" class="img-fluid rounded a" height="450px" width="450px"> 
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-xl 3 col-lg 3 col-md 12 col-sm 12 margem2 bb"><img src="img/a1.jpg" class="img-fluid rounded a" height="450px" width="450px">
-    </div>
-    <div class="col-xl 3 col-lg 3 col-md 12 col-sm 12 margem2"><img src="img/a2.jpg" class="img-fluid rounded a" height="450px" width="450px"> 
-    </div>
-    <div class="col-xl 3 col-lg 3 col-md 12 col-sm 12 margem2"><img src="img/a3.jpg" class="img-fluid rounded a" height="450px" width="450px"> 
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-xl 3 col-lg 3 col-md 12 col-sm 12 margem2 bb"><img src="img/a4.jpg" class="img-fluid rounded a" height="450px" width="450px">
-    </div>
-    <div class="col-xl 3 col-lg 3 col-md 12 col-sm 12 margem2"><img src="img/a5.jpg" class="img-fluid rounded a" height="450px" width="450px"> 
-    </div>
-    <div class="col-xl 3 col-lg 3 col-md 12 col-sm 12 margem2"><img src="img/a6.jpg" class="img-fluid rounded a" height="450px" width="450px"> 
-    </div>
-</div>
-
-
-		<div class="col-6 col-md">
+										<br/><br/>
+	<div class="row">
+		<div class="col-12 laranja">
+			<h3 class="fonte meio"> Veja informações sobre Mirante do Vale Restaurante </h3>
+		</div>
+	</div>		
+										<br/><br/>
+		<div class="row">
+		<div class="col-6 col-lg-2 bl col-md">
             <h5> Serviços: </h5>
-            <ul class="list-unstyled text-small">
-              <li class="espaco"> Locação de espaços: auditório/boates/casa de show/espetáculos/clubes/etc. </li>
-              <li class="espaco"> Serviço de café/buffet. </li>
+            <ul class="circulo text-small">
+              <li class="fonte"> Locação de espaços: auditório/boates/casa de show/espetáculos/ clubes/etc. </li>
+              <li class="fonte"> Serviço de café/buffet. </li>
             </ul>
           </div>
 
-          <div class="col-6 col-md">
+          <div class="col-6 bc col-lg-6 col-md">
             <h5> Descrição Geral: </h5>
-            <ul class="list-unstyled text-small">
-            <li > Serve café da manhã, almoço, jantar, café e bebidas. Locação do espaço para a realização de eventos. Dispõe de serviços de buffet e de garçons.</li>
-            <li > Horário de Funcionamento:Todos os dias da semana, das 6h30 às 21h30.</li>
-            <li > Facilidades: Rampas acessíveis e banheiros para portadores de necessidades especiais </li>
-            <li > Diferenciais: O pagamento pode ser a vista ou cartões de crédito Visa , Master, Hipercard, Elo e American Express.</li>
-            <li > Capacidade de atendimento: O local comporta até 350 pessoas (170 no mezanino) e o estacionamento tem lugar para 20 carros, dentro e fora do estabelecimento. </li>
-            <li > Natureza: Privada.</li>
+            <ul class="circulo text-small">
+            <li class="fonte"> Serve café da manhã, almoço, jantar, café e bebidas. Locação do espaço para a realização de eventos. Dispõe de serviços de buffet e de garçons.</li>
+            <li class="fonte"> Horário de Funcionamento:Todos os dias da semana, das 6h30 às 21h30.</li>
+            <li class="fonte"> Facilidades: Rampas acessíveis e banheiros para portadores de necessidades especiais </li>
+            <li class="fonte"> Diferenciais: O pagamento pode ser a vista ou pelos cartões de crédito Visa , Master, Hipercard, Elo e American Express.</li>
+            <li class="fonte"> Capacidade de atendimento: O local comporta até 350 pessoas (170 no mezanino) e o estacionamento tem lugar para 20 carros, dentro e fora do estabelecimento. </li>
+            <li class="fonte"> Natureza: Privada.</li>
             </ul>
           </div>
 
-          <div class="col-6 col-md">
+          <div class="col-6 br col-lg-3 col-md">
           	<h5>Localização:</h5>
-          	<ul class="a" style="list-style-type:none">
-          		<li > Cidade: Goianinha/RN</li>
-          		<li > CEP: 59173-000 </li>
-            	<li > Latitude: -626339 </li>
-            	<li > Longitude: -35211363 </li>
-            	<li > Logradouro: Rua Luiz Belarmino da Costa </li>
-            	<li > Número: 1587 </li>
-            	<li > Bairro: Centro</li>
-            	<li > </li>
+          	<ul class="circulo">
+          		<li class="fonte"> Cidade: Goianinha/RN</li>
+          		<li class="fonte"> CEP: 59173-000 </li>
+            	<li class="fonte"> Latitude: -626339 </li>
+            	<li class="fonte"> Longitude: -35211363 </li>
+            	<li class="fonte"> Logradouro: Rua Luiz Belarmino da Costa </li>
+            	<li class="fonte"> Número: 1587 </li>
+            	<li class="fonte"> Bairro: Centro</li>
+            	<li class="fonte"> </li>
             </ul>
           </div>
-
+          </div>
+								<br/><br/>
+		<div class="row">
         <div class="col-12 laranja">
-         	<h4>Para mais informações:  Contato 1: (84)3243-2283 | Contato 2: (84)99113-8636 | CNPJ: 70.159.132/0001-46 | Instagram: @mirantedovalerestaurante | Facebook: Mirante do Vale Restaurante | E-mail: mirantedovalerest@gmail.com | WhatsApp: 99113-8636   </h4>
+         	<h4 class="text-muted">Para mais informações:  Contato 1: (84)3243-2283 | Contato 2: (84)99113-8636 | CNPJ: 70.159.132/0001-46 |<br/> Instagram: @mirantedovalerestaurante | Facebook: Mirante do Vale Restaurante |<br/> E-mail: mirantedovalerest@gmail.com | WhatsApp: 99113-8636   </h4>
          	
          </div>
   
 </div>
 
    </div>
-</div>
-</div>
+
 
  	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
