@@ -26,6 +26,8 @@
   h5
   {
   	text-align: center;
+    color: #FE9A2E;
+    font-family: "Georgia, serif"
   }
 
   .class li{
@@ -78,13 +80,59 @@ body
     color: rgb(40,125,40)
   }
 
+  .fonte {
+    font-style: italic;
+    font-weight: 900
+  }
+
+  .letra {
+    text-align: center;
+    font-style: italic;
+  }
+
+  .baixar {
+    margin-top: 100px
+  }
+
+  .baixa2 {
+    margin-top: 40px
+  }
+
+  .borda {
+    margin-left: 20px;
+    border-style: double;
+  }
+
+  .borda2 {
+    border-style: double;
+  }
+
+  .borda3 {
+    margin-right: 20px;
+    border-style: double;
+  }
+
+  .descer {
+    margin-top: 130px
+  }
+
+  .cor {
+    font-style: italic;
+    color: black;
+  }
+
+  .circulo {
+    list-style-type: circle;
+  }
+
 	</style>
 
 </head>
 
 <body>
-
-	<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm laranja">
+  <div class="container-fluid">
+	 <div class="row">
+    <div class=" col-12 d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm laranja">
       <h3 class="my-0 mr-md-auto font-weight-normal">
         <a href="../index.html">
 			<img src="../gps.png" width="100px" height="100px"></a>
@@ -95,10 +143,11 @@ body
         <a class="p-2 ax " href="../Produtos/Produtos.html">Produto</a>
       </nav>
     </div>
+    </div>
 
     <div class="row">
 	<div class="col-12 c padding">
-		<h1>Tempero Cunhaú</h1>
+		<h1 class="fonte">Tempero Cunhaú</h1>
 	</div>
 </div>
 <div class="row">
@@ -146,44 +195,54 @@ body
     </div>
 </div>
 
+  <div class="row">
+    <div class="col-12 laranja baixar">
+      <h3 class="letra"> Veja informações sobre o Tempero Cunhaú</h3>
+    </div> 
+  </div>
+  
 
-	<div class="row">
-  <div class="col-6 col-md separar">
+	<div class="row baixa2">
+  <div class="col-6 col-md separar borda">
     <h5>Serviços:</h5>
-        <ul class="list-unstyled text-small">
-        <li><a class="text-muted" href="#">Serviço de café/buffet</li>
+        <ul class="circulo text-small">
+        <li><a class="cor" href="#">Serviço de café/buffet.</li>
         </ul>
   </div>
 
-  <div class="col-6 col-md">
-    <h5>Descrição Geral</h5>
-        <ul class="list-unstyled text-small">
-        <li><a class="text-muted" href="#">Atua no serviço de Restaurante e buffet</li>
-        <li><a class="text-muted" href="#">Horário de Funcionamento: Dom-Qui 9:00 às 17:00, Sex-Sab 9:00 às 22:00</li>
-        <li><a class="text-muted" href="#">Natureza: Privado</li>
+  <div class="col-6 col-md borda2">
+    <h5>Descrição Geral:</h5>
+        <ul class="circulo text-small ">
+        <li><a class="cor" href="#">Atua no serviço de Restaurante e buffet.</li>
+        <li><a class="cor" href="#">Horário de Funcionamento: Dom-Qui 9:00 às 17:00, Sex-Sab 9:00 às 22:00.</li>
+        <li><a class="cor" href="#">Natureza: Privado.</li>
         </ul>
   </div>
 
-  <div class="col-6 col-md class">
-    <h5>Localização</h5>
-        <ul class="list-unstyled text-small">
-        <li><a class="text-muted" href="#">Rua Paulino de Melo</li>
-        <li><a class="text-muted" href="#">Número: 46°</li>
-        <li><a class="text-muted" href="#">CEP: 59190-000</li>
-        <li><a class="text-muted" href="#">Bairro: Sertãozinho</li>
-        <li><a class="text-muted" href="#">Cidade: Canguaretama</li>
+  <div class="col-6 col-md class borda3">
+    <h5>Localização:</h5>
+        <ul class="circulo text-small ">
+        <li><a class="cor" href="#">Rua: Paulino de Melo.</li>
+        <li><a class="cor" href="#">Número: 46.</li>
+        <li><a class="cor" href="#">CEP: 59190-000.</li>
+        <li><a class="cor" href="#">Bairro: Sertãozinho.</li>
+        <li><a class="cor" href="#">Cidade: Canguaretama.</li>
         </ul>
   </div>
+  </div>
 
-         <div class="col-12 laranja">
-         	<h4>Para mais informações: Contato: (84) 3241-2876 | Instagram: @temperocunhau | Facebbok: Tempero Cunhaú | Email: temperocunhau.ig@gmail.com <h4>
-            
+      <div class="row">         
+        <div class="col-12 laranja descer">
+         	<h4 class="text-muted"> Para mais informações: Contato: (84) 3241-2876 | Instagram: @temperocunhau | Facebbok: 
+            <a class="text-muted" href="https://www.facebook.com/temperocunhau/photos/a.184033635511968/204749280107070/?type=3&theater"> Tempero Cunhaú </a> | Email: temperocunhau.ig@gmail.com <h4>
+            </div>
+
          </div>
   
-</div>
+
 
    </div>
-</div>
+
 
  	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
