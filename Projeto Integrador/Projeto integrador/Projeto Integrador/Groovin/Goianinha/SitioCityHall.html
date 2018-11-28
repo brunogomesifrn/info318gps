@@ -27,7 +27,9 @@
 	h5
 	{
   	text-align: center;
-  	color:black;
+  	color:#FE9A2E;
+  	font-family: "Georgia, serif"
+
 	}
 	
 	h2
@@ -84,6 +86,53 @@
     text-decoration: none;
     color: rgb(40,125,40)
   }
+
+  .letra {
+  	font-style: italic;
+  	font-weight: 900
+  }
+
+  .baixar {
+  	margin-top: 100px
+  }
+
+  .fonte {
+  	font-style: italic;
+  	text-align: center;
+  }
+
+  .baixar2 {
+  	margin-top: 40px
+  }
+
+  .descer {
+  	margin-top: 130px
+  }
+
+  .borda {
+  	border-style: double;
+  	margin-left: 20px
+  }
+
+  .borda2 {
+  	border-style: double;
+
+  }
+
+  .borda3 {
+  	border-style: double;
+  	margin-right: 20px
+  }
+
+  .cor {
+  	color: black;
+  	font-style: italic;
+  }
+
+  .circulo {
+  	list-style-type: circle;
+  }
+	
 	</style>
 
 	<link rel="stylesheet" type="text/css" href="../externo.css" />
@@ -91,7 +140,7 @@
 </head>
 
 <body>
-<div class="containe-fluid">
+<div class="container-fluid">
 	<div class="row">
 	<div class=" col-12 d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3  border-bottom shadow-sm laranja">
            <h3 class="my-0 mr-md-auto font-weight-normal">
@@ -103,11 +152,11 @@
         <a class="p-2 ax" href="../Serviços/servicos.html">Serviço</a>
         <a class="p-2 ax" href="../Produtos/Produtos.html">Produto</a>
       </nav>
-    </div>
-    <div> 
+    </div> 
+</div>
     <div class="row">
 	<div class="col-12 c padding">
-		<h1> Sítio City Hall </h1>
+		<h1 class="letra"> Sítio City Hall </h1>
 		
 	</div>
 </div>
@@ -118,48 +167,58 @@
 		</div>
 		<div class="col-xl 3 col-lg 3 col-md 12 col-sm 12 margem2 bb"><img src="img/img25.jpg" class="img-fluid rounded a" height="450px" width="450px">
 		</div>
-<div>
+</div>
+	
 	<div class="row">
-		<div class="col-6 col-md">
+		<div class="col-12 laranja baixar">
+			<h3 class="fonte"> Veja informações sobre o Sítio City Hall</h3>
+		</div>
+	</div>
+
+	<div class="row baixar2">
+		<div class="col-6 col-md borda">
             <h5> Serviços: </h5>
-            <ul class="list-unstyled text-small">
-              <li class="espaco"> Locação de espaços: auditório/boates/casa de show/espetáculos/clubes/etc. </li>
+            <ul class="circulo text-small">
+              <li class="espaco cor"> Locação de espaços: auditório/boates/casa de show/espetáculos/clubes/etc. </li>
             </ul>
           </div>
 
-          <div class="col-6 col-md">
+          <div class="col-6 col-md borda2">
             <h5> Descrição Geral: </h5>
-            <ul class="list-unstyled text-small">
-            <li > Ótimo espaço para a realização de eventos. Possui piscina, espaço gramado e um local coberto. </li>
-            <li > Horário de Funcionamento: Disponível todos os dias da semana. </li>
-            <li > Diferenciais: Um espaço bem amplo. </li>
-            <li > Capacidade de Atendimenrto: Em média, 150 pessoas. </li>
-            <li > Natureza: Privada.</li>
+            <ul class="circulo text-small">
+            <li class="cor"> Ótimo espaço para a realização de eventos. Possui piscina, espaço gramado e um local coberto. </li>
+            <li class="cor"> Horário de Funcionamento: Disponível todos os dias da semana. </li>
+            <li class="cor"> Diferenciais: Um espaço bem amplo. </li>
+            <li class="cor"> Capacidade de Atendimenrto: Em média, 150 pessoas. </li>
+            <li class="cor"> Natureza: Privada.</li>
             </ul>
           </div>
 
-          <div class="col-6 col-md">
+          <div class="col-6 col-md borda3">
           	<h5>Localização:</h5>
-          	<ul class="a" style="list-style-type:none">
-          		<li > Cidade: Goianinha/RN </li>
-          		<li > CEP: 59173-000 </li>
-            	<li > Logitude: -6298740 </li>
-            	<li > Latitude: -35.208551 </li>
-            	<li > Logradouro: Saída de Goianinha sentido Canguaretama </li>
-            	<li > Bairro: Novo Horizonte </li>
+          	<ul class="circulo" >
+          		<li class="cor"> Cidade: Goianinha/RN. </li>
+          		<li class="cor"> CEP: 59173-000. </li>
+            	<li class="cor"> Logitude: -6298740. </li>
+            	<li class="cor"> Latitude: -35.208551. </li>
+            	<li class="cor"> Logradouro: Saída de Goianinha sentido Canguaretama. </li>
+            	<li class="cor"> Bairro: Novo Horizonte. </li>
             	
             </ul>
           </div>
+          </div>
 
-          <div class="col-12 laranja">
-         	<h4>Para mais informações:  Contato 1: (84)99105-2735 | Instagram: @sitio_cityhall | Facebook: Sítio City Hall | WhatsApp: (84) 99105-2735   </h4>
+          <div class="row">
+
+          <div class="col-12 laranja descer">
+         	<h4 class="text-muted">Para mais informações:  Contato 1: (84)99105-2735 | Instagram: @sitio_cityhall | Facebook: <a class="text-muted" href="https://www.facebook.com/CitHall/"> Sítio City Hall </a> | WhatsApp: (84) 99105-2735   </h4>
          </div>
-  
-</div>
+  		</div>
+
 
    </div>
-</div>
-</div>
+
+
  	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
