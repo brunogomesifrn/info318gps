@@ -11,7 +11,61 @@
 	<meta charset="utf-8">
 
 	<style type="text/css">
+	
+	.bl {
+		border-style: double;
+		margin-left: 50px
+	}
+
+	.bc {
+		border-style: double;
+	}
+
+	.br {
+		border-style: double;
+		margin-right: 20px
+	}
+	.aff {
+		font-weight: 900;
+		font-style: italic;
+	}
+	.fundo{
+	background-image: url('img/img28.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 600px
+	}
+	.meio {
+	text-align: center;
+	}
+	.ax {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: white
+	}
+
+  a:hover {
+    text-decoration: none;
+    color: rgb(40,125,40)
+  	}
+	.sobepeste {
+	margin-bottom: -50px		
+	}
+	.fonte {
+	font-style: italic;
+	}
+	.circulo {
+	list-style-type: circle;
+	}
 		
+	h5
+	{
+  	text-align: center;
+  	color:#FE9A2E;
+  	font-family: "Georgia, serif";
+	}
+	
 	h1
 	{
   	text-align: center;
@@ -24,12 +78,6 @@
   	color: white;
 	}
 	
-	h5
-	{
-  	text-align: center;
-  	color:black;
-	}
-	
 	h2
 	{
     text-align: center;
@@ -38,13 +86,12 @@
 
 	.padding
 	{
-	background-image: url(.jpg);
 	background-repeat: no-repeat;
 	-moz-background-size: 100% 100%;
 	-webkit-background-size: 100% 100%;
 	background-size: 100% 100%;
 
-	height: 100px;
+	height: 600px;
 
 	
 	}
@@ -91,9 +138,9 @@
 </head>
 
 <body>
-	<div class="containe-fluid">
+	<div class="container-fluid">
 		<div class="row">
-	<div class=" col-12 d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3  border-bottom shadow-sm laranja">
+	<div class=" col-12 d-flex flex-column col-xg-12 col-lg-12 flex-md-row align-items-center p-3 px-md-4 mb-3  border-bottom shadow-sm laranja">
             <h3 class="my-0 mr-md-auto font-weight-normal">
             	<a href="../index.html">
 		<img src="../gps.png" width="100px" height="100px"></a>
@@ -108,63 +155,62 @@
  </div>
     <div class="row">
 
-	<div class="col-12 c padding">
-		<h1> G13 Locações </h1>
+	<div class="col-12 c fundo padding">
+		<h1 class="aff"> G13 Locações </h1>
 		
 	</div>
 </div>
-<div class="row">
-		<div class="col-xl 3 col-lg 3 col-md 12 col-sm 12 margem2 bb"><img src="img/img27.jpg" class="img-fluid rounded a" height="400px" width="400px">
+								<br/><br/>
+	<div class="row sobepeste">
+		<div class="col-12 laranja">
+			<h3 class="fonte meio"> Veja informações sobre Máx Nóbrega - Design e Fotografia </h3>
 		</div>
-		<div class="col-xl 3 col-lg 3 col-md 12 col-sm 12 margem2"><img src="img/img26.jpeg" class="img-fluid rounded a" height="400px" width="400px"> 
-		</div>
-		<div class="col-xl 3 col-lg 3 col-md 12 col-sm 12 margem2"><img src="img/img28.jpg" class="img-fluid rounded a" height="400px" width="400px"> 
-		</div>
-</div>
-
+	</div>
+								<br/><br/><br/><br/>
 	<div class="row">
 
-		<div class="col-6 col-md">
+		<div class="col-6 bl col-lg-3 col-md">
             <h5> Serviços: </h5>
-            <ul class="list-unstyled text-small">
-              <li class="espaco"> Locação de banheiros/serviço de limpeza. </li>
-              <li class="espaco"> Locação e montagem de palcos/tendas/ estandes.</li>
-              <li class="espaco"> Locação e montagem de equipamentos.</li>
-              <li class="espaco"> Locação e montagem de camarins.</li>
+            <ul class="circulo text-small">
+              <li class="fonte"> Locação de banheiros/serviço de limpeza. </li>
+              <li class="fonte"> Locação e montagem de palcos/tendas/ estandes.</li>
+              <li class="fonte"> Locação e montagem de equipamentos.</li>
+              <li class="fonte"> Locação e montagem de camarins.</li>
             </ul>
           </div>
 
-          <div class="col-6 col-md">
+          <div class="col-6 bc col-lg-5 col-md">
             <h5> Descrição Geral: </h5>
-            <ul class="list-unstyled text-small">
-            <li > Locação de estrutura para eventos em geral, como: palco, tendas, banheiros, geradores, tablados, grid, fechamento e grades de contenção. </li>
-            <li > Horário de Funcionamento: De segunda à sábado, das 07h00 às 17h00. </li>
-            <li > Diferenciais: Pagamento a vista ou cartão.</li>
+            <ul class="circulo text-small">
+            <li class="fonte"> Locação de estrutura para eventos em geral, como: palco, tendas, banheiros, geradores, tablados, grid, fechamento e grades de contenção. </li>
+            <li class="fonte"> Horário de Funcionamento: De segunda à sábado, das 07h00 às 17h00. </li>
+            <li class="fonte"> Diferenciais: Pagamento a vista ou cartão.</li>
             </ul>
           </div>
 
-          <div class="col-6 col-md">
+          <div class="col-6 br col-lg-3 col-md">
           	<h5>Localização:</h5>
-          	<ul class="a" style="list-style-type:none">
-          		<li > Cidade: Goianinha/RN</li>
-          		<li > CEP: 59173-000 </li>
-            	<li > Longitude: -6278303 </li>
-            	<li > Latitude: -35205253 </li>
-            	<li > Logradouro: R. Prof. Benjamin Simoneti</li>
-            	<li > Número: 726-782</li>
-            	<li > Bairro: Novo Orizonte </li>
+          	<ul class="circulo">
+          		<li class="fonte"> Cidade: Goianinha/RN</li>
+          		<li class="fonte"> CEP: 59173-000 </li>
+            	<li class="fonte"> Longitude: -6278303 </li>
+            	<li class="fonte"> Latitude: -35205253 </li>
+            	<li class="fonte"> Logradouro: R. Prof. Benjamin Simoneti</li>
+            	<li class="fonte"> Número: 726-782</li>
+            	<li class="fonte"> Bairro: Novo Orizonte </li>
 
             </ul>
           </div>
-
+          </div>
+						<br/><br/>
+		<div class="row">
          <div class="col-12 laranja">
-         	<h4>Para mais informações:   Contato 1: (84) 9928-0900 | CNPJ: 03.367.790/0001-36 | Facebook: Getreze Locações | WhatsApp: (84) 9928-0900  </h4>
+         	<h4 class="text-muted">Para mais informações:   Contato 1: (84) 9928-0900 | CNPJ: 03.367.790/0001-36 | Facebook: Getreze Locações | WhatsApp: (84) 9928-0900  </h4>
          </div>
 </div>
 
    </div>
-</div>
-</div>
+
  	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
