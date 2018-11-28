@@ -27,7 +27,9 @@
 	h5
 	{
   	text-align: center;
-  	color:black;
+  	color:#FE9A2E;
+  	font-family: "Georgia, serif"
+
 	}
 	
 	h2
@@ -82,6 +84,51 @@
     text-decoration: none;
     color: rgb(40,125,40)
   }
+
+  .fonte {
+  	font-style: italic;
+  	font-weight: 900
+  }
+
+  .letra {
+  	text-align: center;
+  	font-style: italic;
+  }
+
+  .baixar {
+  	margin-top: 100px
+  }
+
+  .baixar2 {
+  	margin-top: 40px
+  }
+
+  .descer {
+  	margin-top: 130px
+  }
+
+  .ata {
+  	border-style: double;
+  	margin-left: 20px
+  }
+
+  .aff {
+  	border-style: double;
+  }
+  .vdc {
+  	border-style: double;
+  	margin-right: 20px
+  }
+
+  .cor {
+  	font-style: italic;
+  	colo: black;
+  }
+
+  .aqui {
+  	list-style-type: circle;
+  }
+
 	</style>
 
 	<link rel="stylesheet" type="text/css" href="../externo.css" />
@@ -89,9 +136,9 @@
 </head>
 
 <body>
-<div class="containe-fluid">
-	<div class"row">
-	<div class=" col-12 d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3  border-bottom shadow-sm laranja">
+<div class="container-fluid">
+	<div class="row">
+	<div class="col-12 d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3  border-bottom shadow-sm laranja">
             <h3 class="my-0 mr-md-auto font-weight-normal">
             	<a href="../index.html">
 		<img src="../gps.png" width="100px" height="100px"></a>
@@ -104,8 +151,8 @@
     </div>
 </div>
     <div class="row">
-	<div class="col-12 c padding">
-		<h1> Peixe Viagens </h1>
+	<div class="col-12 c padding ">
+		<h1 class="fonte"> Peixe Viagens </h1>
 	</div>
 </div>
 <div class="row">
@@ -115,45 +162,55 @@
 		</div>
 		<div class="col-xl 3 col-lg 3 col-md 12 col-sm 12 margem2 bb"><img src="img/img17.jpg" class="img-fluid rounded a" height="350px" width="350px">
 		</div>
-<div>
-	<div class="row">
-
-		<div class="col-6 col-md">
-            <h5> Serviços: </h5>
-            <ul class="list-unstyled text-small">
-              <li class="espaco"> Agência de Viagem e Translado </li>
-            </ul>
-          </div>
-
-          <div class="col-6 col-md">
-            <h5> Descrição Geral: </h5>
-            <ul class="list-unstyled text-small">
-            <li > Dispõe de aluguel de transporte (micro-ônibus, vans e ônibus) e pacotes de viagens (turismo e excursões). </li>
-            <li > Hoário de Funcionamento: Segunda a sexta, das 8h às 17h e aos sábados, das 8h às 11h. </li>
-            <li > Diferenciais: Única agência de turismo no município; o pagamento pode ser à vista, no cartão ou no boleto.</li>
-            </ul>
-          </div>
-
-          <div class="col-6 col-md">
-          	<h5>Localização:</h5>
-          	<ul class="a" style="list-style-type:none">
-          		<li > Cidade: Goianinha/RN </li>
-          		<li > CEP: 59173-000 </li>
-            	<li > Logradouro: Rua Vereador Gastão Grillo </li>
-            	<li > Número: 263 </li>
-            	<li > Bairro: Conjunto Paulo Barbalho </li>
-            </ul>
-          </div>
-
-           <div class="col-12 laranja">
-         	<h4>Para mais informações:  Contato 1: (84)99114-6055 | CNPJ: 19.052.963/0001-67 | Instagram: @peixeviagens | Facebook: Peixe Viagens e Turismo Ltda | E-mail: peixeviagenstur@gmail.com | Site: peixeviagens.com | WhatsApp: (84) 99114-6055   </h4>
-         </div>
-  
 </div>
+
+	<div class="row">
+		<div class="col-12 laranja baixar">
+			<h3 class="letra"> Veja informações sobre Peixe Viagens</h3>
+		</div>
+		
+	</div>
+
+	<div class="row baixar2">
+
+		<div class="col-6 col-md ata">
+            <h5> Serviços: </h5>
+            <ul class="aqui text-small">
+              <li class="espaco cor"> Agência de Viagem e Translado. </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md aff">
+            <h5> Descrição Geral: </h5>
+            <ul class="aqui text-small">
+            <li class="cor"> Dispõe de aluguel de transporte (micro-ônibus, vans e ônibus) e pacotes de viagens (turismo e excursões). </li>
+            <li class="cor"> Hoário de Funcionamento: Segunda a sexta, das 8h às 17h e aos sábados, das 8h às 11h. </li>
+            <li class="cor"> Diferenciais: Única agência de turismo no município; o pagamento pode ser à vista, no cartão ou no boleto.</li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md vdc">
+          	<h5>Localização:</h5>
+          	<ul class="aqui" >
+          		<li class="cor"> Cidade: Goianinha/RN. </li>
+          		<li class="cor"> CEP: 59173-000. </li>
+            	<li class="cor"> Logradouro: Rua Vereador Gastão Grillo. </li>
+            	<li class="cor"> Número: 263. </li>
+            	<li class="cor"> Bairro: Conjunto Paulo Barbalho. </li>
+            </ul>
+          </div>
+          </div>
+
+          	<div class="row">
+           <div class="col-12 laranja descer">
+         	<h4 class="text-muted">Para mais informações:  Contato 1: (84)99114-6055 | CNPJ: 19.052.963/0001-67 | Instagram: @peixeviagens | Facebook:
+         	<a class="text-muted" href="https://www.facebook.com/peixeturismo/"> Peixe Viagens e Turismo Ltda </a>| E-mail: peixeviagenstur@gmail.com | Site: peixeviagens.com | WhatsApp: (84) 99114-6055   </h4>
+         </div>
+  		</div>
+
 
    </div>
-</div>
-</div>
+
  	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

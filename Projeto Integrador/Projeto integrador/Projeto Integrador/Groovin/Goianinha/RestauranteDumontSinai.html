@@ -27,7 +27,9 @@
 	h5
 	{
   	text-align: center;
-  	color:black;
+  	color:#FE9A2E;
+  	font-family: "Georgia, serif"
+
 	}
 	
 	h2
@@ -83,6 +85,54 @@
     text-decoration: none;
     color: rgb(40,125,40)
   }
+
+  .imagem {
+  	background-image: url('img/img22.jpg');
+  	background-repeat: no-repeat;
+  	background-position: center;
+  	height: 600px
+  }
+
+  .fonte {
+  	text-align: center;
+  	font-style: italic;
+  }
+
+  .baixar {
+  	margin-top: 100px
+  }
+
+  .baixar2 {
+  	margin-top: 40px
+  }
+
+  .descer {
+  	margin-top: 130px
+  }
+
+  .hj {
+  	border-style: double;
+  	margin-left: 20px
+  }
+
+  .e {
+  	border-style: double;
+  }
+
+  .aa {
+  	border-style: double;
+  	margin-right: 20px
+  }
+
+  .cor {
+  	color: black;
+  	font-style: italic;
+  }
+
+  .me {
+  	list-style-type: circle;
+  }
+
 	</style>
 
 	<link rel="stylesheet" type="text/css" href="../externo.css" />
@@ -90,7 +140,7 @@
 </head>
 
 <body>
-<div class="containe-fluid">
+<div class="container-fluid">
 	<div class="row">
 	<div class="col-12 d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3  border-bottom shadow-sm laranja">
             <h3 class="my-0 mr-md-auto font-weight-normal">
@@ -106,55 +156,59 @@
     </div>
 </div>
     <div class="row">
-	<div class="col-12 c padding">
+	<div class="col-12 c padding imagem">
 		<h1> Restaurante Dumont Sinai </h1>
 		
 	</div>
 </div>
-<div class="row">
-		<div class="col-xl 3 col-lg 3 col-md 12 col-sm 12 margem2 bb"><img src="img/img22.jpg" class="img-fluid rounded a" height="400px" width="400px">
-		</div>
-<div>
+
 	<div class="row">
-		<div class="col-6 col-md">
+		<div class="col-12 laranja baixar">
+			<h3 class="fonte"> Veja informações sobre o Restauranre Dumont Sinai</h3>
+		</div>
+	</div>
+	
+	<div class="row baixar2">
+		<div class="col-6 col-md hj">
             <h5> Serviços: </h5>
-            <ul class="list-unstyled text-small">
-              <li class="espaco"> Serviço de café/buffet. </li>
-              <li class="espaco"> Locação de espaços: auditório/boates/casa de show/espetáculos/clubes/etc. </li>
+            <ul class="me text-small">
+              <li class="espaco cor"> Serviço de café/buffet. </li>
+              <li class="espaco cor"> Locação de espaços: auditório/boates/casa de show/espetáculos/clubes/etc. </li>
             </ul>
           </div>
 
-          <div class="col-6 col-md">
+          <div class="col-6 col-md e">
             <h5> Descrição Geral: </h5>
-            <ul class="list-unstyled text-small">
-            <li > Espaço para eventos e serviço de buffet/alimentação, com espaço amplo. </li>
-            <li > Horário de Funcionamento: Todos os dias da semana.</li>
-            <li > Capacidade de atendimento: 200 pessoas.</li>
-            <li > Natureza: Privada.</li>
+            <ul class="me text-small">
+            <li class="cor"> Espaço para eventos e serviço de buffet/alimentação, com espaço amplo. </li>
+            <li class="cor"> Horário de Funcionamento: Todos os dias da semana.</li>
+            <li class="cor"> Capacidade de atendimento: 200 pessoas.</li>
+            <li class="cor"> Natureza: Privada.</li>
             </ul>
           </div>
 
-          <div class="col-6 col-md">
+          <div class="col-6 col-md aa">
           	<h5>Localização:</h5>
-          	<ul class="a" style="list-style-type:none">
-          		<li > Cidade: Goianinha/RN </li>
-          		<li > CEP: 59173-000</li>
-            	<li > Latitude: -626804 </li>
-            	<li > Longitude: -3520848 </li>
-            	<li > Logradouro: Rua Davi Simonetti </li>
-            	<li > Bairro: Centro</li>
-            	<li > Ponto de Referência: Saida para Pipa.</li>
+          	<ul class="me" >
+          		<li class="cor"> Cidade: Goianinha/RN. </li>
+          		<li class="cor"> CEP: 59173-000.</li>
+            	<li class="cor"> Latitude: -626804. </li>
+            	<li class="cor"> Longitude: -3520848. </li>
+            	<li class="cor"> Logradouro: Rua Davi Simonetti. </li>
+            	<li class="cor"> Bairro: Centro.</li>
+            	<li class="cor"> Ponto de Referência: Saida para Pipa.</li>
             </ul>
           </div>
+          </div>
 
-     <div class="col-12 laranja">
-         	<h4>Para mais informações:  Contato 1: (84)99414-0115 | CNPJ: 28.515.057/0001-42 | Instagram: @restaurantedumontsinai | Facebook: Restaurante Dumont Sinai | WhatsApp: (84) 99414-0115  </h4>
+          <div class="row">
+     <div class="col-12 laranja descer">
+         	<h4 class="text-muted">Para mais informações:  Contato 1: (84)99414-0115 | CNPJ: 28.515.057/0001-42 | Instagram: @restaurantedumontsinai | Facebook: <a class="text-muted" href="https://www.facebook.com/DumontSinaiGoianinha/"> Restaurante Dumont Sinai </a> | WhatsApp: (84) 99414-0115  </h4>
          </div>
-</div>
+         </div>
 
    </div>
-</div>
-</div>
+
  	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
