@@ -27,7 +27,9 @@
 	h5
 	{
   	text-align: center;
-  	color:black;
+  	color:#FE9A2E;
+  	font-family: "Georgia, serif"
+
 	}
 	
 	h2
@@ -84,6 +86,60 @@
     text-decoration: none;
     color: rgb(40,125,40)
   }
+
+  .imagem {
+  	background-image: url('img/img15.jpg');
+  	background-repeat: no-repeat;
+  	background-position: center;
+  	height: 600px
+  }
+
+  .letra {
+  	text-align: center;
+  	font-style: italic;
+  }
+
+  .baixar {
+  	margin-top: 100px 
+  }
+
+  .baixar2 {
+  	margin-top: 40px 
+  }
+
+  .descer {
+  	margin-top: 130px
+  }
+
+  .borda {
+  	border-style: double;
+  	margin-left: 20px
+  }
+
+  .borda2 {
+  	border-style: double;
+  }
+
+  .borda3 {
+  	border-style: double;
+  	margin-right: 20px
+  }
+
+  .cor {
+  	color: black;
+  	font-style: italic;
+  }
+
+  .circulo {
+  	list-style-type: circle;
+
+  }
+
+  .fonte {
+  	font-style: italic;
+  	font-weight: 900 
+  }
+	
 	</style>
 
 	<link rel="stylesheet" type="text/css" href="../externo.css" />
@@ -91,7 +147,7 @@
 </head>
 
 <body>
-<div class="containe-fluid"> 
+<div class="container-fluid"> 
 	<div class="row">
 	<div class=" col-12 d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3  border-bottom shadow-sm laranja">
         <h3 class="my-0 mr-md-auto font-weight-normal">
@@ -108,55 +164,58 @@
     </div>
     <div class="row">
 
-	<div class="col-12 c padding">
-		<h1> PartYou Eventos </h1>
+	<div class="col-12 c padding imagem img-responsive rounded">
+		<h1 class="fonte"> PartYou Eventos </h1>
 		
 	</div>
 </div>
+
 <div class="row">
-		<div class="col-xl 3 col-lg 3 col-md 12 col-sm 12 margem2 bb"><img src="img/img15.jpg" class="img-fluid rounded a" height="350px" width="350px">
+		<div class="col-12 laranja baixar">
+			<h3 class="letra"> Veja informações sobre PartYou Eventos</h3>
 		</div>
-<div>
-	<div class="row">
+</div>
+	<div class="row baixar2">
 
-		<div class="col-6 col-md">
+		<div class="col-6 col-md borda">
             <h5> Serviços: </h5>
-            <ul class="list-unstyled text-small">
-              <li class="espaco"> Captação/ Planejamento</li>
-              <li class="espaco"> Administração/ Gestão</li>
-              <li class="espaco"> Organização/ Promoção</li>
-              <li class="espaco"> Assessoria/ Coordenação de eventos/ Cerimonial</li>
+            <ul class="circulo text-small">
+              <li class="espaco cor"> Captação/ Planejamento.</li>
+              <li class="espaco cor"> Administração/ Gestão.</li>
+              <li class="espaco cor"> Organização/ Promoção.</li>
+              <li class="espaco cor"> Assessoria/ Coordenação de eventos/ Cerimonial.</li>
 
             </ul>
           </div>
 
-          <div class="col-6 col-md">
+          <div class="col-6 col-md borda2">
             <h5> Descrição Geral: </h5>
-            <ul class="list-unstyled text-small">
-            <li >Gestão, cerimonial e assessoria para eventos, como desfiles, casamentos, aniversários e solenidades de formatura. </li>
-            <li > Diferenciais: Profissionais qualificados com formação acadêmica na área e o serviço pode ser pago vista (50% na entrada e os outros no dia do evento). </li>
-            <li > Natureza: Privada. </li>
+            <ul class="circulo text-small">
+            <li class="cor">Gestão, cerimonial e assessoria para eventos, como desfiles, casamentos, aniversários e solenidades de formatura. </li>
+            <li class="cor"> Diferenciais: Profissionais qualificados com formação acadêmica na área e o serviço pode ser pago vista (50% na entrada e os outros no dia do evento). </li>
+            <li class="cor"> Natureza: Privada. </li>
             </ul>
           </div>
 
-          <div class="col-6 col-md">
+          <div class="col-6 col-md borda3">
           	<h5>Localização:</h5>
-          	<ul class="a" style="list-style-type:none">
-          		<li > Cidade: Goianinha/RN </li>
-            	<li > CEP: 59173-000 </li>
+          	<ul class="circulo" >
+          		<li class="cor"> Cidade: Goianinha/RN </li>
+            	<li class="cor"> CEP: 59173-000 </li>
             </ul>
           </div>
+          </div>
 
-        <div class="col-12 laranja">
-         	<h4>Para mais informações:  Contato 1: (84)999429-2700 | Contato 2: (84)99423-9933 | Instragam: @partyoueventos | E-mail: epartyou@gmail.com | WhatsApp: (84)99423-9933  </h4>
+        	<div class="row">
+        <div class="col-12 laranja descer">
+         	<h4 class="text-muted">Para mais informações:  Contato 1: (84)999429-2700 | Contato 2: (84)99423-9933 | Instragam: @partyoueventos | E-mail: epartyou@gmail.com | WhatsApp: (84)99423-9933  </h4>
          	
          </div>
-  
-</div>
+  		</div>
+
 
    </div>
-</div>
-</div>
+
 
  	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
