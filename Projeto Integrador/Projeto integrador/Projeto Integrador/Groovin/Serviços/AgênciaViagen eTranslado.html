@@ -30,7 +30,8 @@
 	 	margin-top: 20px
 	 }
 	 .margem2 {
-	 	margin-top: 100px
+	 	margin-top: 100px;
+	 	margin-left: 460px
 	 }
 	 .letra {
 	 	font-style: italic;
@@ -38,22 +39,38 @@
 	 .espaco{
 	 	margin-bottom: 150px;
 	 }
+
+	 a:hover {
+	 	text-decoration: none;
+	 	color:rgb(40,125,40);
+	 }
+
+	 .ava {
+	 	font-family: inherit;
+	 	line-height: 1.1;
+	 	font-weight: 500;
+	 	color: white;
+	 }
+
 	</style>
 
 </head>
 <body>
 
 <div class="container-fluid">
-		<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm laranja b mr-auto">
+		<div class="row">
+		<div class="col-12 d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm laranja b mr-auto">
 			<h3 class="my-0 mr-md-auto font-weight-normal">
-		<img src="../gps.png" width="100px" height="100px">
+		<a href="../index.html"> <img src="../gps.png" width="100px" height="100px"> </a>
      		 </h3>
       <nav class="my-2 my-md-0 mr-md-3">
-        <a class="p-2 text-dark" href="#">Cidades</a>
-        <a class="p-2 text-dark" href="#">Produtos</a>
-        <a class="p-2 text-dark" href="#">Menu</a>
+        <a class="p-2 ava" href="../Cidades/Goianinha.html">Cidades</a>
+        <a class="p-2 ava" href="../Produtos/Produtos.html">Produtos</a>
+        <a class="p-2 ava" href="../index.html">Menu</a>
       </nav>
-		</div class="row">
+      </div>
+  </div>
+		<div class="row">
 			<div class="col-12 c padding">
 				<h1 class="centro"> Agência de Viagens e Translado </h1>
 					<h3 class="centro letra"> Encontre aqui tudo o que você procura. </h3>
@@ -63,6 +80,7 @@
 			<div class="col-xl 3 col-lg 3 col-md 12 col-sm 12 margem2"> <h2 class="centro"> Peixe Viagens  <br /><a href="../Goianinha/PeixeViagens.html"><center><img src="img/agencia.jpg" alt="imagem agencia" class="img-fluid rounded a"> </center></a>  </h2>
 			</div>
 		</div>
+		</div>
 
 		<div class="row">
 			<div class="col-12 laranja margem"> <h4 class="centro"> 
@@ -70,7 +88,8 @@
 			</h4></div>
 			
 		</div>
-	</div>
+	
+</div>
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
