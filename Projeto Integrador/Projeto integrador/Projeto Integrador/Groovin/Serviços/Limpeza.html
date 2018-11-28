@@ -30,7 +30,7 @@
 	 }
 
 	 .margem {
-	 	margin-top: 20px
+	 	margin-top: 40px
 
 	 }
 
@@ -42,6 +42,22 @@
 	 	font-style: italic;
 	 }
 
+	 a:hover {
+	 	text-decoration: none;
+	 	color: rgb(40,125,40);
+	 }
+
+	 .atx {
+	 	font-family: inherit;
+	 	color: white;
+	 	line-height: 1.1;
+	 	font-weight: 500
+	 }
+
+	 h1 {
+	 	font-style: italic;
+	 	font-weight: 900
+	 }
 
 	</style>
 
@@ -49,21 +65,24 @@
 <body>
 
 	<div class="container-fluid">
-		<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm laranja b mr-auto">
+		<div class="row">
+		<div class="col-12 d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm laranja b mr-auto">
 			<h3 class="my-0 mr-md-auto font-weight-normal">
-		<img src="../gps.png" width="100px" height="100px">
+		<a href="../index.html"> <img src="../gps.png" width="100px" height="100px"> </a>
      		 </h3>
       <nav class="my-2 my-md-0 mr-md-3">
-        <a class="p-2 text-dark" href="#">Cidades</a>
-        <a class="p-2 text-dark" href="#">Produtos</a>
-        <a class="p-2 text-dark" href="#">Menu</a>
+        <a class="p-2 atx" href="#">Cidades</a>
+        <a class="p-2 atx" href="../Produtos/Produtos.html">Produtos</a>
+        <a class="p-2 atx" href="../index.html">Menu</a>
       </nav>
-		</div class="row">
+      </div>
+  </div>
+		<div class="row">
 			<div class="col-12 c padding">
 				<h1 class="p"> Limpeza </h1>
 					<h3 class="p d"> Encontre aqui tudo o que você procura. </h3>
 			</div>
-
+		</div>
 		<div class="row">
 
 			<div class="col-xl 3 col-lg 3 col-md 12 col-sm 12 margem2"> <h2 class="p"> G13 Locações </h2> <a href="../Goianinha/G13Locacao.html"> <center> <img src="img/limpeza.jpg" alt="imagem cerimonial" class="img-fluid rounded a"> </center> </a>
@@ -71,13 +90,14 @@
 		</div>
 
 		
-		</div>
+		
 
 		<div class="row">
 			<div class="col-12 laranja margem"> <h4 class="p"> <p>&copy; Contribuidores : @mayara_karolynne @brunasantoss_0806 @miih_lopes3 @_greycekelly @eduarda_alcantara08 @SemaiasRangel</p> </h4></div>
 			
 		</div>
 	</div>
+	
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
