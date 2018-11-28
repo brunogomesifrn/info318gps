@@ -27,7 +27,9 @@
 	h5
 	{
   	text-align: center;
-  	color:black;
+  	color:#FE9A2E;
+  	font-family: "Georgia, serif"
+
 	}
 	
 	h2
@@ -83,15 +85,61 @@
     text-decoration: none;
     color: rgb(40,125,40)
   }
+
+  .fonte {
+  	font-style: italic;
+  	font-weight: 900
+  }
+
+  .letra {
+  	text-align: center;
+  	font-style: italic;
+  }
+
+  .baixar {
+  	margin-top: 100px
+  }
+
+  .baixar2 {
+  	margin-top: 40px
+  }
+
+  .descer {
+  	margin-top: 130px
+  }
+
+  .borda {
+  	border-style: double;
+  	margin-left: 20px
+  }
+	
+  .borda2 {
+  	border-style: double;
+  }
+
+  .borda3 {
+  	border-style: double;
+  	margin-right: 20px
+  }
+
+  .cor {
+  	color: black;
+  	font-style: italic;
+  }
+
+  .circulo {
+  	list-style-type: circle;
+  }
+
 	</style>
 
 	 <link rel="stylesheet" type="text/css" href="../externo.css" />
 </head>
 
 <body>
-<div class="containe-fluid">
+<div class="container-fluid">
 	<div class="row">
-	<div class=" col-12 d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3  border-bottom shadow-sm laranja">
+	<div class="col-12 d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3  border-bottom shadow-sm laranja">
             <h3 class="my-0 mr-md-auto font-weight-normal">
             	<a href="../index.html">
 		<img src="../gps.png" width="100px" height="100px"></a>
@@ -105,7 +153,7 @@
 </div>
     <div class="row">
 	<div class="col-12 c padding">
-		<h1> Planeta Doce  </h1>
+		<h1 class="fonte"> Planeta Doce  </h1>
 		
 	</div>
 </div>
@@ -116,48 +164,57 @@
 		</div>
 		<div class="col-xl 3 col-lg 3 col-md 12 col-sm 12 margem2 bb"><img src="img/img21.jpg" class="img-fluid rounded a" height="350px" width="350px">
 		</div>
-<div>
-	<div class="row">
-		<div class="col-6 col-md">
-            <h5> Serviços: </h5>
-            <ul class="list-unstyled text-small">
-              <li class="espaco"> Locação e montagem de brinquedos. </li>
-              <li class="espaco"> Locação e montagem de equipamentos. </li>
-            </ul>
-          </div>
-
-          <div class="col-6 col-md">
-            <h5> Descrição Geral: </h5>
-            <ul class="list-unstyled text-small">
-            <li > Dispõe de equipamentos para festas como: pula-pula, piscina de bolinhas, máquinas de algodão doce e pipoca, assim como um espaço para realização de eventos. </li>
-            <li > Horário de Funcionamento: Segunda a sexta, das 7h às 18h e aos sábados das 6h às 17h. </li>
-            <li > Diferenciais: Oferece o serviço completo; Pagamento no cartão (a partir de R$ 100,00 divide-se em 2x) ou à vista. </li>
-            <li > Capacidade de Atendimento: 120 pessoas. </li>
-            <li > Natureza: Privada. </li>
-            </ul>
-          </div>
-
-          <div class="col-6 col-md">
-          	<h5>Localização:</h5>
-          	<ul class="a" style="list-style-type:none">
-          		<li > Cidade: Goianinha/RN </li>
-          		<li > CEP: 59173-000 </li>
-            	<li > Latitude: -6267478 </li>
-            	<li > Longitude: -35209599 </li>
-            	<li > Logradouro: Rua David Simonetti </li>
-            	<li > Número: 21 </li>
-            	<li > Bairro: Centro</li>
-            </ul>
-          </div>
-
-       <div class="col-12 laranja">
-         	<h4>Para mais informações:  Contato 1: (84)3243-2099 | CNPJ: 08.861.664/0001-57 | Facebook: Bomboniere Planeta Doce </h4>
-         </div>
 </div>
+	
+	<div class="row">
+		<div class="col-12 laranja baixar">
+			<h3 class="letra"> Veja informações sobre o Planeta Doce</h3>
+		</div>
+	</div>
+
+	<div class="row baixar2">
+		<div class="col-6 col-md borda">
+            <h5> Serviços: </h5>
+            <ul class="circulo text-small">
+              <li class="espaco cor"> Locação e montagem de brinquedos. </li>
+              <li class="espaco cor"> Locação e montagem de equipamentos. </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md borda2">
+            <h5> Descrição Geral: </h5>
+            <ul class="circulo text-small">
+            <li class="cor"> Dispõe de equipamentos para festas como: pula-pula, piscina de bolinhas, máquinas de algodão doce e pipoca, assim como um espaço para realização de eventos. </li>
+            <li class="cor"> Horário de Funcionamento: Segunda a sexta, das 7h às 18h e aos sábados das 6h às 17h. </li>
+            <li class="cor"> Diferenciais: Oferece o serviço completo; Pagamento no cartão (a partir de R$ 100,00 divide-se em 2x) ou à vista. </li>
+            <li class="cor"> Capacidade de Atendimento: 120 pessoas. </li>
+            <li class="cor"> Natureza: Privada. </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md borda3">
+          	<h5>Localização:</h5>
+          	<ul class="circulo" >
+          		<li class="cor"> Cidade: Goianinha/RN. </li>
+          		<li class="cor"> CEP: 59173-000. </li>
+            	<li class="cor"> Latitude: -6267478. </li>
+            	<li class="cor"> Longitude: -35209599. </li>
+            	<li class="cor"> Logradouro: Rua David Simonetti. </li>
+            	<li class="cor"> Número: 21. </li>
+            	<li class="cor"> Bairro: Centro.</li>
+            </ul>
+          </div>
+          </div>
+
+          <div class="row">
+       <div class="col-12 laranja descer">
+         	<h4 class="text-muted">Para mais informações:  Contato 1: (84)3243-2099 | CNPJ: 08.861.664/0001-57 | Facebook: <a class="text-muted" href="https://www.facebook.com/bomboniereplaneta.doce.9/"> Bomboniere Planeta Doce </a> </h4>
+         </div>
+         </div>
 
    </div>
 </div>
-</div>
+
 
  	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
